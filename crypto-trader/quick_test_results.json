@@ -1,0 +1,106 @@
+{
+  "best_params": {
+    "breakout_percentile": 0.9,
+    "min_volume_ratio": 0.75,
+    "atr_sl_mult": 2.0,
+    "atr_tp_mult": 3.0,
+    "min_gates_required": 3
+  },
+  "best_metrics": {
+    "win_rate": 0.3636363636363636,
+    "trade_count": 22.0,
+    "pnl": -13.88466022315913
+  },
+  "all_results": [
+    {
+      "name": "Baseline (Current V2)",
+      "params": {
+        "breakout_percentile": 0.9,
+        "min_volume_ratio": 0.75,
+        "atr_sl_mult": 2.0,
+        "atr_tp_mult": 3.0,
+        "min_gates_required": 3
+      },
+      "metrics": {
+        "win_rate": 0.3636363636363636,
+        "trade_count": 22.0,
+        "pnl": -13.88466022315913
+      }
+    },
+    {
+      "name": "Wider SL + Relaxed gates",
+      "params": {
+        "breakout_percentile": 0.9,
+        "min_volume_ratio": 0.75,
+        "atr_sl_mult": 2.5,
+        "atr_tp_mult": 3.5,
+        "min_gates_required": 2
+      },
+      "metrics": {
+        "win_rate": 0.3594541910331384,
+        "trade_count": 54.0,
+        "pnl": -36.6174917625718
+      }
+    },
+    {
+      "name": "Low breakout + High vol",
+      "params": {
+        "breakout_percentile": 0.85,
+        "min_volume_ratio": 1.0,
+        "atr_sl_mult": 2.0,
+        "atr_tp_mult": 3.0,
+        "min_gates_required": 3
+      },
+      "metrics": {
+        "win_rate": 0.3317539947974731,
+        "trade_count": 24.0,
+        "pnl": -14.571223240151369
+      }
+    },
+    {
+      "name": "High breakout + Relaxed gates",
+      "params": {
+        "breakout_percentile": 0.95,
+        "min_volume_ratio": 0.5,
+        "atr_sl_mult": 2.0,
+        "atr_tp_mult": 4.0,
+        "min_gates_required": 2
+      },
+      "metrics": {
+        "win_rate": 0.29083083083083083,
+        "trade_count": 53.0,
+        "pnl": -34.28474104113437
+      }
+    },
+    {
+      "name": "Lower breakout + Higher TP",
+      "params": {
+        "breakout_percentile": 0.85,
+        "min_volume_ratio": 0.75,
+        "atr_sl_mult": 2.0,
+        "atr_tp_mult": 3.5,
+        "min_gates_required": 3
+      },
+      "metrics": {
+        "win_rate": 0.2882362082362082,
+        "trade_count": 23.666666666666668,
+        "pnl": -17.135265648356864
+      }
+    },
+    {
+      "name": "Stricter vol + Tighter SL",
+      "params": {
+        "breakout_percentile": 0.9,
+        "min_volume_ratio": 1.0,
+        "atr_sl_mult": 1.5,
+        "atr_tp_mult": 3.5,
+        "min_gates_required": 3
+      },
+      "metrics": {
+        "win_rate": 0.27867765463673394,
+        "trade_count": 22.0,
+        "pnl": -8.250292437673323
+      }
+    }
+  ]
+}

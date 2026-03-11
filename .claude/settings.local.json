@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(python -m backend.walkforward --start 2025-12-01 --end 2026-02-22 --train-days 40 --test-days 14 --step-days 14)",
+      "Bash(tee results.json)"
+    ]
+  }
+}

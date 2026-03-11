@@ -1,0 +1,1132 @@
+10:10:27 - [INFO] - watchdog_tick open_positions=2
+10:11:25 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:11:25 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69915.29000000 ema_fast=69834.87730070 tolerance_mult=1.001500 tolerance_ceiling=69939.62961665 below_ema_fast=true
+10:11:25 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=UP, ATR% ok (0.31), pullback yok, reclaim yok, within EMA fast tolerance, SYM=BTC/USDT
+10:11:27 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2024.21000000 ema_fast=2026.02637232 tolerance_mult=1.001500 tolerance_ceiling=2029.06541188 below_ema_fast=true
+10:11:27 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.35), pullback yok, reclaim yok, below EMA fast, SYM=ETH/USDT
+10:11:29 - [INFO] - 🧾 ROUND#49 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:11:29 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:11:29 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:11:34 - [INFO] - watchdog_tick open_positions=2
+10:12:42 - [INFO] - watchdog_tick open_positions=2
+10:13:50 - [INFO] - watchdog_tick open_positions=2
+10:14:59 - [INFO] - watchdog_tick open_positions=2
+10:16:07 - [INFO] - watchdog_tick open_positions=2
+10:16:29 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:16:30 - [WARNING] - Yetersiz Bakiye (USDT): 0.06
+10:16:30 - [INFO] - analysis trade_rejected symbol=BTC/USDT decision=BUY price=69859.49000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+10:16:30 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=trader_rejected price=69859.49000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:16:30 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+10:16:30 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69859.49, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68462.3002, 'take_profit': 71256.67980000001, 'current_price': 69859.49, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0007157223735815993, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 69900.0, 'quantity': 0.000715307582260372, 'action': 'BUY'}}, 'paper_usdt': 0.056436616892199254, 'paper_equity_usdt': 999.8836220168923, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+10:16:32 - [WARNING] - Yetersiz Bakiye (USDT): 0.06
+10:16:32 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2022.21000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+10:16:32 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2022.21000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:16:32 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+10:16:32 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2022.21, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 1981.7658, 'take_profit': 2062.6542, 'current_price': 2022.21, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.024725424164651545, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2024.0, 'quantity': 0.024703557312252964, 'action': 'BUY'}}, 'paper_usdt': 0.056436616892199254, 'paper_equity_usdt': 999.8664914168921, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+10:16:34 - [INFO] - 🧾 ROUND#50 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:16:34 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+10:16:34 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+10:17:15 - [INFO] - watchdog_tick open_positions=2
+10:18:23 - [INFO] - watchdog_tick open_positions=2
+10:19:31 - [INFO] - watchdog_tick open_positions=2
+10:20:39 - [INFO] - watchdog_tick open_positions=2
+10:21:34 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:21:34 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69822.85000000 ema_fast=69831.65520060 tolerance_mult=1.001500 tolerance_ceiling=69936.40268340 below_ema_fast=true
+10:21:34 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.30), pullback ok (0.18), reclaim yok, below EMA fast, SYM=BTC/USDT
+10:21:36 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2021.36000000 ema_fast=2025.51129835 tolerance_mult=1.001500 tolerance_ceiling=2028.54956529 below_ema_fast=true
+10:21:36 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.35), pullback yok, reclaim yok, below EMA fast, SYM=ETH/USDT
+10:21:39 - [INFO] - 🧾 ROUND#51 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:21:39 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:21:39 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:21:46 - [INFO] - watchdog_tick open_positions=2
+10:22:54 - [INFO] - watchdog_tick open_positions=2
+10:23:54 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:23:54 - [INFO] - 127.0.0.1:61980 - "GET /dashboard/trades HTTP/1.1" 200
+10:23:54 - [INFO] - 127.0.0.1:61981 - "GET /dashboard/summary HTTP/1.1" 200
+10:23:54 - [INFO] - 127.0.0.1:61980 - "GET /dashboard/trades HTTP/1.1" 200
+10:23:54 - [INFO] - 127.0.0.1:61981 - "GET /dashboard/summary HTTP/1.1" 200
+10:23:55 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:23:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:23:55 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:23:59 - [INFO] - 127.0.0.1:61981 - "GET /dashboard/trades HTTP/1.1" 200
+10:23:59 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:23:59 - [INFO] - 127.0.0.1:61980 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:00 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:24:01 - [INFO] - watchdog_tick open_positions=2
+10:24:04 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:24:04 - [INFO] - 127.0.0.1:61980 - "GET /dashboard/trades HTTP/1.1" 200
+10:24:04 - [INFO] - 127.0.0.1:61981 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:05 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:24:09 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:24:09 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/trades HTTP/1.1" 200
+10:24:09 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:09 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/trades HTTP/1.1" 200
+10:24:09 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:10 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:24:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:24:10 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:24:14 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:24:14 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/trades HTTP/1.1" 200
+10:24:14 - [INFO] - 127.0.0.1:61998 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:15 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:24:19 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:24:19 - [INFO] - 127.0.0.1:61982 - "GET /dashboard/summary HTTP/1.1" 200
+10:24:19 - [INFO] - 127.0.0.1:61998 - "GET /dashboard/trades HTTP/1.1" 200
+10:24:20 - [INFO] - 127.0.0.1:61979 - "GET /dashboard/positions HTTP/1.1" 200
+10:25:06 - [INFO] - watchdog_tick open_positions=2
+10:26:14 - [INFO] - watchdog_tick open_positions=2
+10:26:39 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:26:39 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69824.19000000 ema_fast=69831.78281965 tolerance_mult=1.001500 tolerance_ceiling=69936.53049388 below_ema_fast=true
+10:26:39 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.18), reclaim yok, below EMA fast, SYM=BTC/USDT
+10:26:41 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2021.32000000 ema_fast=2025.50748882 tolerance_mult=1.001500 tolerance_ceiling=2028.54575006 below_ema_fast=true
+10:26:41 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.35), pullback yok, reclaim yok, below EMA fast, SYM=ETH/USDT
+10:26:43 - [INFO] - 🧾 ROUND#52 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:26:43 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:26:43 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:27:23 - [INFO] - watchdog_tick open_positions=2
+10:28:31 - [INFO] - watchdog_tick open_positions=2
+10:29:30 - [INFO] - 127.0.0.1:62047 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:30 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:29:30 - [INFO] - 127.0.0.1:62048 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:30 - [INFO] - 127.0.0.1:62047 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:30 - [INFO] - 127.0.0.1:62048 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:31 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:31 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:29:31 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:34 - [INFO] - force_close requested symbol='BTC/USDT' normalized='BTC/USDT'
+10:29:34 - [INFO] - force_close debug db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db requested=BTC/USDT normalized=BTC/USDT open_symbols=['ETH/USDT', 'BTC/USDT']
+10:29:34 - [INFO] - force_close position_found symbol=BTC/USDT found=True
+10:29:35 - [INFO] - ⚡ Trade: SELL 0.00359000 BTC/USDT | risk_x=1.000 | reason=MANUAL_CLOSE
+10:29:35 - [INFO] - 🧪 [PAPER] SELL 0.00359 BTC/USDT @ mid=69791.290000 exec=69773.834246 fee=0.250488 slip_bps=2.501 id=po_40377767c9b0e731fe355abd
+10:29:35 - [INFO] - trade order_filled symbol=BTC/USDT signal=SELL order_id=po_40377767c9b0e731fe355abd exec_amount=0.00359000 exec_price=69773.83424570 cost=250.48806494
+10:29:35 - [INFO] - trade position_updated symbol=BTC/USDT signal=SELL exec_amount=0.00359000 exec_price=69773.83424570 fee=0.25048806 realized_pnl=0.12251327 gross_pnl=0.6228665380885445 total_fees=0.5003532633460657 net_pnl=0.12251327474247886
+10:29:35 - [INFO] - trade audit_persisted trade_id=5 symbol=BTC/USDT side=SELL realized_pnl=0.12251327 fee=0.25048806 total_fees=0.5003532633460657 gross_pnl=0.6228665380885445 net_pnl=0.12251327474247886
+10:29:35 - [INFO] - 127.0.0.1:62046 - "POST /trade/close/BTC/USDT HTTP/1.1" 200
+10:29:36 - [INFO] - 127.0.0.1:62049 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:36 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:36 - [INFO] - 127.0.0.1:62049 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:36 - [INFO] - 127.0.0.1:62049 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:36 - [INFO] - 127.0.0.1:62049 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:36 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:36 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:36 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:38 - [INFO] - watchdog_tick open_positions=1
+10:29:40 - [INFO] - 127.0.0.1:62049 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:40 - [INFO] - 127.0.0.1:62052 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:40 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:45 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:45 - [INFO] - 127.0.0.1:62053 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:45 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:50 - [INFO] - 127.0.0.1:62055 - "GET /dashboard/summary HTTP/1.1" 200
+10:29:50 - [INFO] - 127.0.0.1:62053 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:50 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:29:55 - [INFO] - 127.0.0.1:62053 - "GET /dashboard/trades HTTP/1.1" 200
+10:29:55 - [INFO] - 127.0.0.1:62046 - "GET /dashboard/positions HTTP/1.1" 200
+10:29:55 - [INFO] - 127.0.0.1:62055 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:00 - [INFO] - 127.0.0.1:62055 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:00 - [INFO] - 127.0.0.1:62055 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:00 - [INFO] - 127.0.0.1:62055 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:05 - [INFO] - 127.0.0.1:62059 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:05 - [INFO] - 127.0.0.1:62058 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:05 - [INFO] - 127.0.0.1:62059 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:10 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:10 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:10 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:15 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:15 - [INFO] - 127.0.0.1:62065 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:15 - [INFO] - 127.0.0.1:62066 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:20 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:20 - [INFO] - 127.0.0.1:62065 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:20 - [INFO] - 127.0.0.1:62066 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:26 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:26 - [INFO] - 127.0.0.1:62065 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:26 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:26 - [INFO] - 127.0.0.1:62066 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:30 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:30 - [INFO] - 127.0.0.1:62062 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:30 - [INFO] - 127.0.0.1:62065 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:31 - [INFO] - 127.0.0.1:62066 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:32 - [INFO] - Shutting down
+10:30:32 - [INFO] - Waiting for application shutdown.
+10:30:32 - [INFO] - Application shutdown complete.
+10:30:32 - [INFO] - Finished server process [11676]
+10:30:34 - [INFO] - ============================================================
+10:30:34 - [INFO] - 🤖 CRYPTO TRADING BOT BAŞLATILIYOR
+10:30:34 - [INFO] - 📊 Log dosyaları: logs/bot.log.YYYY-MM-DD_HH
+10:30:34 - [INFO] - 🔄 Otomatik saatlik rotation: AKTIF
+10:30:34 - [INFO] - 💾 7 günlük log saklanacak
+10:30:34 - [INFO] - ============================================================
+10:30:35 - [INFO] - Started server process [9816]
+10:30:35 - [INFO] - Waiting for application startup.
+10:30:35 - [INFO] - ✅ DB path resolved: C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db
+10:30:35 - [INFO] - startup_state db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db open_positions_on_start=1
+10:30:35 - [WARNING] - startup_state stale open positions detected in V1 test mode: count=1; logging only, no auto-pause/disable here. Runtime pause decisions remain in trader/risk checks.
+10:30:35 - [INFO] - 🧪 TEST_MODE: Binance PUBLIC veri (live endpoint) kullanılacak. Emirler simüle.
+10:30:39 - [INFO] - ✅ Binance piyasa verileri yüklendi.
+10:30:39 - [INFO] - strategy_config {'version': 'grid_v1', 'grid_lower': 60000.0, 'grid_upper': 75000.0, 'grid_count': 100, 'capital_per_grid': 30.0, 'emergency_stop_pct': 0.15, 'min_atr_pct': 0.001, 'max_atr_pct': 0.05, 'min_volume_ratio': 0.3}
+10:30:39 - [INFO] - ✅ 1H TrendBiasService hazır (TTL cache aktif).
+10:30:39 - [INFO] - ✅ CorrelationService hazır (research.db, TTL cache).
+10:30:39 - [INFO] - universe_loaded symbols=['BTC/USDT', 'ETH/USDT'] updated_at=2026-03-11T03:07:19
+10:30:39 - [WARNING] - V1 force universe aktif: BTC/USDT,ETH/USDT
+10:30:39 - [INFO] - Telegram notifier disabled via TELEGRAM_ENABLED=false; network calls suppressed.
+10:30:39 - [WARNING] - Universe rebuild loop pasif: V1 force universe aktif.
+10:30:39 - [INFO] - --- 🛡️ WATCHDOG LOOP AKTİF (5s) ---
+10:30:39 - [INFO] - --- 🔎 SCANNER LOOP AKTİF ---
+10:30:39 - [INFO] - Application startup complete.
+10:30:39 - [INFO] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+10:30:41 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:41 - [INFO] - 127.0.0.1:62089 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:41 - [INFO] - 127.0.0.1:62088 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:41 - [INFO] - 127.0.0.1:62090 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:44 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:30:45 - [INFO] - trend_bias_computed
+10:30:45 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69770.00000000 ema_fast=69823.06295923 tolerance_mult=1.001500 tolerance_ceiling=69927.79755367 below_ema_fast=true
+10:30:45 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.26), reclaim yok, below EMA fast, SYM=BTC/USDT
+10:30:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:45 - [INFO] - 127.0.0.1:62088 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:45 - [INFO] - 127.0.0.1:62090 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:45 - [INFO] - 127.0.0.1:62089 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:47 - [INFO] - trend_bias_computed
+10:30:47 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2019.70000000 ema_fast=2024.79412255 tolerance_mult=1.001500 tolerance_ceiling=2027.83131374 below_ema_fast=true
+10:30:47 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.23), reclaim ok (0.01), below EMA fast, SYM=ETH/USDT
+10:30:47 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2019.70000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:30:47 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:30:47 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2019.7, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2019.7, 'stop_loss': 2011.72685714, 'take_profit': 2031.65971429, 'reason': '1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.23), reclaim ok (0.01), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 6.644285714285696, 'atr_pct': 0.0032897389286952006, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'NEUTRAL', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2024.79412255}, 'paper_usdt': 250.29401349402718, 'paper_equity_usdt': 998.3871894940273, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+10:30:49 - [INFO] - 🧾 ROUND#1 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:30:49 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.23), reclaim ok (0.01), below EMA fast, SYM=ETH/USDT
+10:30:49 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+10:30:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:51 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:51 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:51 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:30:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:30:55 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/summary HTTP/1.1" 200
+10:30:55 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/trades HTTP/1.1" 200
+10:30:55 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:00 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:00 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:00 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:05 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:05 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:05 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:11 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:11 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:11 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:11 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:15 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:15 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:16 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:20 - [INFO] - 127.0.0.1:62096 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:20 - [INFO] - 127.0.0.1:62097 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:21 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:26 - [INFO] - 127.0.0.1:62101 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:26 - [INFO] - 127.0.0.1:62102 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:26 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:30 - [INFO] - 127.0.0.1:62102 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:30 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:30 - [INFO] - 127.0.0.1:62101 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:31 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:35 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:31:35 - [INFO] - 127.0.0.1:62101 - "GET /dashboard/trades HTTP/1.1" 200
+10:31:35 - [INFO] - 127.0.0.1:62102 - "GET /dashboard/summary HTTP/1.1" 200
+10:31:36 - [INFO] - 127.0.0.1:62091 - "GET /dashboard/positions HTTP/1.1" 200
+10:31:36 - [INFO] - watchdog_tick open_positions=1
+10:32:37 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:32:37 - [INFO] - 127.0.0.1:62108 - "GET /dashboard/trades HTTP/1.1" 200
+10:32:37 - [INFO] - 127.0.0.1:62107 - "GET /dashboard/positions HTTP/1.1" 200
+10:32:37 - [INFO] - 127.0.0.1:62109 - "GET /dashboard/summary HTTP/1.1" 200
+10:32:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:32:40 - [INFO] - 127.0.0.1:62107 - "GET /dashboard/trades HTTP/1.1" 200
+10:32:40 - [INFO] - 127.0.0.1:62108 - "GET /dashboard/summary HTTP/1.1" 200
+10:32:41 - [INFO] - watchdog_tick open_positions=1
+10:32:41 - [INFO] - 127.0.0.1:62109 - "GET /dashboard/positions HTTP/1.1" 200
+10:32:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:32:45 - [INFO] - 127.0.0.1:62110 - "GET /dashboard/trades HTTP/1.1" 200
+10:32:45 - [INFO] - 127.0.0.1:62110 - "GET /dashboard/summary HTTP/1.1" 200
+10:32:45 - [INFO] - 127.0.0.1:62109 - "GET /dashboard/positions HTTP/1.1" 200
+10:32:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:32:51 - [INFO] - 127.0.0.1:62113 - "GET /dashboard/positions HTTP/1.1" 200
+10:32:51 - [INFO] - 127.0.0.1:62117 - "GET /dashboard/summary HTTP/1.1" 200
+10:32:51 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/trades HTTP/1.1" 200
+10:32:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:32:55 - [INFO] - 127.0.0.1:62117 - "GET /dashboard/trades HTTP/1.1" 200
+10:32:55 - [INFO] - 127.0.0.1:62113 - "GET /dashboard/summary HTTP/1.1" 200
+10:32:56 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:01 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:01 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:01 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:05 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:05 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:06 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:10 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:10 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:11 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:15 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:15 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:16 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:20 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:20 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:21 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:25 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:25 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:26 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:30 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:30 - [INFO] - 127.0.0.1:62121 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:30 - [INFO] - 127.0.0.1:62120 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:31 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:35 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:36 - [INFO] - 127.0.0.1:62124 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:36 - [INFO] - 127.0.0.1:62125 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:36 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:40 - [INFO] - 127.0.0.1:62125 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:40 - [INFO] - 127.0.0.1:62124 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:41 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:33:41 - [INFO] - watchdog_tick open_positions=1
+10:33:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:33:46 - [INFO] - 127.0.0.1:62129 - "GET /dashboard/trades HTTP/1.1" 200
+10:33:46 - [INFO] - 127.0.0.1:62130 - "GET /dashboard/summary HTTP/1.1" 200
+10:33:46 - [INFO] - 127.0.0.1:62116 - "GET /dashboard/positions HTTP/1.1" 200
+10:34:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:34:39 - [INFO] - 127.0.0.1:62137 - "GET /dashboard/trades HTTP/1.1" 200
+10:34:39 - [INFO] - 127.0.0.1:62138 - "GET /dashboard/summary HTTP/1.1" 200
+10:34:39 - [INFO] - 127.0.0.1:62136 - "GET /dashboard/positions HTTP/1.1" 200
+10:34:44 - [INFO] - watchdog_tick open_positions=1
+10:35:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:35:38 - [INFO] - 127.0.0.1:62139 - "GET /dashboard/positions HTTP/1.1" 200
+10:35:38 - [INFO] - 127.0.0.1:62139 - "GET /dashboard/trades HTTP/1.1" 200
+10:35:38 - [INFO] - 127.0.0.1:62139 - "GET /dashboard/summary HTTP/1.1" 200
+10:35:49 - [INFO] - watchdog_tick open_positions=1
+10:35:49 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:35:49 - [WARNING] - corr_load_failed
+10:35:49 - [WARNING] - corr_load_failed
+10:35:49 - [INFO] - corr_matrix_computed
+10:35:49 - [INFO] - ⚡ Trade: BUY 0.00357000 BTC/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+10:35:49 - [INFO] - 🧪 [PAPER] BUY 0.00357 BTC/USDT @ mid=69657.220000 exec=69666.869661 fee=0.248711 slip_bps=1.385 id=po_6ee258eef29cfa2d2c4a7fbb
+10:35:49 - [INFO] - trade order_filled symbol=BTC/USDT signal=BUY order_id=po_6ee258eef29cfa2d2c4a7fbb exec_amount=0.00357000 exec_price=69666.86966072 cost=248.71072469
+10:35:49 - [INFO] - trade position_updated symbol=BTC/USDT signal=BUY exec_amount=0.00357000 exec_price=69666.86966072 fee=0.24871072 realized_pnl=0.00000000 gross_pnl=None total_fees=0.24871072468877345 net_pnl=None
+10:35:49 - [INFO] - trade audit_persisted trade_id=6 symbol=BTC/USDT side=BUY realized_pnl=0.00000000 fee=0.24871072 total_fees=0.24871072468877345 gross_pnl=None net_pnl=None
+10:35:49 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+10:35:49 - [INFO] - 📢 RAPOR: {'symbol': 'BTC/USDT', 'price': 69657.22, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68264.0756, 'take_profit': 71050.3644, 'current_price': 69657.22, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.00043068040900857084, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 69750.0, 'quantity': 0.00043010752688172043, 'action': 'BUY'}}, 'paper_usdt': 250.29401349402718, 'paper_equity_usdt': 996.5574134940273, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_6ee258eef29cfa2d2c4a7fbb', 'clientOrderId': '6ee258eef29cfa2d2c4a7fbbd43bfb87bc2afaad8ee66e0e5ad974f7ef235441', 'symbol': 'BTC/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.00357, 'filled': 0.00357, 'price': 69666.86966072085, 'average': 69666.86966072085, 'cost': 248.71072468877344, 'fee': 0.24871072468877345, 'status': 'closed', 'timestamp': 1773214549788, 'info': {'mode': 'paper', 'mid_price': 69657.22, 'slippage_bps': 1.385306608683254, 'reason': 'AUTO_SIGNAL'}}}
+10:35:52 - [WARNING] - Yetersiz Bakiye (USDT): 1.33
+10:35:52 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2014.78000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+10:35:52 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2014.78000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:35:52 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+10:35:52 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2014.78, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 1974.4844, 'take_profit': 2055.0756, 'current_price': 2014.78, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.014889963172157754, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2016.0, 'quantity': 0.01488095238095238, 'action': 'BUY'}}, 'paper_usdt': 1.3345780805649667, 'paper_equity_usdt': 996.3149974805649, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+10:35:53 - [INFO] - 🧾 ROUND#2 summary: BUY=1 SELL=0 HOLD=1 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:35:53 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+10:35:53 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+10:36:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:36:38 - [INFO] - 127.0.0.1:62143 - "GET /dashboard/trades HTTP/1.1" 200
+10:36:38 - [INFO] - 127.0.0.1:62143 - "GET /dashboard/summary HTTP/1.1" 200
+10:36:39 - [INFO] - 127.0.0.1:62142 - "GET /dashboard/positions HTTP/1.1" 200
+10:36:57 - [INFO] - watchdog_tick open_positions=2
+10:37:17 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:17 - [INFO] - 127.0.0.1:62158 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:17 - [INFO] - 127.0.0.1:62159 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:18 - [INFO] - 127.0.0.1:62146 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:20 - [INFO] - 127.0.0.1:62159 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:20 - [INFO] - 127.0.0.1:62158 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:21 - [INFO] - 127.0.0.1:62146 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:25 - [INFO] - 127.0.0.1:62158 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:25 - [INFO] - 127.0.0.1:62146 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:25 - [INFO] - 127.0.0.1:62159 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:31 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:31 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:31 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:31 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:36 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:36 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:36 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:36 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:40 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:40 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:42 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:45 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:45 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:46 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:50 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:50 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:51 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:37:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:37:55 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:37:55 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:37:56 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:38:00 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:00 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:01 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:02 - [INFO] - watchdog_tick open_positions=2
+10:38:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:38:05 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:05 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:06 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:38:10 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:10 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:11 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:12 - [INFO] - ⚡ Trade: SELL 0.37040000 ETH/USDT | risk_x=1.000 | reason=STOP_LOSS
+10:38:12 - [INFO] - 🧪 [PAPER] SELL 0.3704 ETH/USDT @ mid=2008.800000 exec=2008.481445 fee=0.743942 slip_bps=1.586 id=po_7773f6b611f551116798703c
+10:38:12 - [INFO] - trade order_filled symbol=ETH/USDT signal=SELL order_id=po_7773f6b611f551116798703c exec_amount=0.37040000 exec_price=2008.48144507 cost=743.94152726
+10:38:12 - [INFO] - trade position_updated symbol=ETH/USDT signal=SELL exec_amount=0.37040000 exec_price=2008.48144507 fee=0.74394153 realized_pnl=-6.63091405 gross_pnl=-5.137893105042622 total_fees=1.4930209476156673 net_pnl=-6.630914052658289
+10:38:12 - [INFO] - trade audit_persisted trade_id=7 symbol=ETH/USDT side=SELL realized_pnl=-6.63091405 fee=0.74394153 total_fees=1.4930209476156673 gross_pnl=-5.137893105042622 net_pnl=-6.630914052658289
+10:38:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:38:15 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:15 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:16 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:38:20 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:20 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:21 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:38:25 - [INFO] - 127.0.0.1:62167 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:25 - [INFO] - 127.0.0.1:62165 - "GET /dashboard/summary HTTP/1.1" 200
+10:38:26 - [INFO] - 127.0.0.1:62166 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:38:39 - [INFO] - 127.0.0.1:62174 - "GET /dashboard/positions HTTP/1.1" 200
+10:38:39 - [INFO] - 127.0.0.1:62175 - "GET /dashboard/trades HTTP/1.1" 200
+10:38:39 - [INFO] - 127.0.0.1:62176 - "GET /dashboard/summary HTTP/1.1" 200
+10:39:04 - [INFO] - watchdog_tick open_positions=1
+10:39:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:39:38 - [INFO] - 127.0.0.1:62177 - "GET /dashboard/positions HTTP/1.1" 200
+10:39:38 - [INFO] - 127.0.0.1:62177 - "GET /dashboard/trades HTTP/1.1" 200
+10:39:38 - [INFO] - 127.0.0.1:62177 - "GET /dashboard/summary HTTP/1.1" 200
+10:40:10 - [INFO] - watchdog_tick open_positions=1
+10:40:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=1
+10:40:38 - [INFO] - 127.0.0.1:62182 - "GET /dashboard/positions HTTP/1.1" 200
+10:40:38 - [INFO] - 127.0.0.1:62183 - "GET /dashboard/trades HTTP/1.1" 200
+10:40:38 - [INFO] - 127.0.0.1:62182 - "GET /dashboard/summary HTTP/1.1" 200
+10:40:54 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:40:54 - [INFO] - ⚡ Trade: BUY 0.00356000 BTC/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+10:40:54 - [INFO] - 🧪 [PAPER] BUY 0.00356 BTC/USDT @ mid=69550.350000 exec=69568.047076 fee=0.247662 slip_bps=2.544 id=po_583b4be7fd0199dbcd866473
+10:40:54 - [INFO] - trade order_filled symbol=BTC/USDT signal=BUY order_id=po_583b4be7fd0199dbcd866473 exec_amount=0.00356000 exec_price=69568.04707620 cost=247.66224759
+10:40:54 - [INFO] - trade position_updated symbol=BTC/USDT signal=BUY exec_amount=0.00356000 exec_price=69568.04707620 fee=0.24766225 realized_pnl=0.00000000 gross_pnl=None total_fees=0.24766224759127015 net_pnl=None
+10:40:54 - [INFO] - trade audit_persisted trade_id=8 symbol=BTC/USDT side=BUY realized_pnl=0.00000000 fee=0.24766225 total_fees=0.24766224759127015 gross_pnl=None net_pnl=None
+10:40:54 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+10:40:54 - [INFO] - 📢 RAPOR: {'symbol': 'BTC/USDT', 'price': 69550.35, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68159.34300000001, 'take_profit': 70941.357, 'current_price': 69550.35, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0004313421859127955, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 69600.0, 'quantity': 0.0004310344827586207, 'action': 'BUY'}}, 'paper_usdt': 744.5321638086219, 'paper_equity_usdt': 992.8269133086219, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_583b4be7fd0199dbcd866473', 'clientOrderId': '583b4be7fd0199dbcd8664739c0abb21eecf404640973c7c2b1b737d7ad67723', 'symbol': 'BTC/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.00356, 'filled': 0.00356, 'price': 69568.04707619948, 'average': 69568.04707619948, 'cost': 247.66224759127013, 'fee': 0.24766224759127015, 'status': 'closed', 'timestamp': 1773214854604, 'info': {'mode': 'paper', 'mid_price': 69550.35, 'slippage_bps': 2.5444985107140154, 'reason': 'AUTO_SIGNAL'}}}
+10:40:56 - [INFO] - ⚡ Trade: BUY 0.12330000 ETH/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+10:40:56 - [INFO] - 🧪 [PAPER] BUY 0.1233 ETH/USDT @ mid=2010.870000 exec=2011.385739 fee=0.248004 slip_bps=2.565 id=po_83870bbc04ecbc6f4a110af4
+10:40:56 - [INFO] - trade order_filled symbol=ETH/USDT signal=BUY order_id=po_83870bbc04ecbc6f4a110af4 exec_amount=0.12330000 exec_price=2011.38573898 cost=248.00386162
+10:40:56 - [INFO] - trade position_updated symbol=ETH/USDT signal=BUY exec_amount=0.12330000 exec_price=2011.38573898 fee=0.24800386 realized_pnl=0.00000000 gross_pnl=None total_fees=0.24800386161684557 net_pnl=None
+10:40:56 - [INFO] - trade audit_persisted trade_id=9 symbol=ETH/USDT side=BUY realized_pnl=0.00000000 fee=0.24800386 total_fees=0.24800386161684557 gross_pnl=None net_pnl=None
+10:40:56 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+10:40:56 - [INFO] - 📢 RAPOR: {'symbol': 'ETH/USDT', 'price': 2010.87, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 1970.6526, 'take_profit': 2051.0874, 'current_price': 2010.87, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.014918915693207418, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2012.0, 'quantity': 0.014910536779324055, 'action': 'BUY'}}, 'paper_usdt': 496.62225396976055, 'paper_equity_usdt': 992.5300816697604, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_83870bbc04ecbc6f4a110af4', 'clientOrderId': '83870bbc04ecbc6f4a110af49faa689f9c5abd99934b25951e67b548c8130ae9', 'symbol': 'ETH/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.1233, 'filled': 0.1233, 'price': 2011.38573898496, 'average': 2011.38573898496, 'cost': 248.00386161684557, 'fee': 0.24800386161684557, 'status': 'closed', 'timestamp': 1773214856827, 'info': {'mode': 'paper', 'mid_price': 2010.87, 'slippage_bps': 2.5647554787736717, 'reason': 'AUTO_SIGNAL'}}}
+10:40:58 - [INFO] - 🧾 ROUND#3 summary: BUY=2 SELL=0 HOLD=0 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:40:58 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+10:40:58 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+10:41:16 - [INFO] - watchdog_tick open_positions=2
+10:41:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:41:39 - [INFO] - 127.0.0.1:62190 - "GET /dashboard/summary HTTP/1.1" 200
+10:41:39 - [INFO] - 127.0.0.1:62189 - "GET /dashboard/trades HTTP/1.1" 200
+10:41:39 - [INFO] - 127.0.0.1:62185 - "GET /dashboard/positions HTTP/1.1" 200
+10:42:25 - [INFO] - watchdog_tick open_positions=2
+10:42:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:42:39 - [INFO] - 127.0.0.1:62196 - "GET /dashboard/summary HTTP/1.1" 200
+10:42:39 - [INFO] - 127.0.0.1:62197 - "GET /dashboard/trades HTTP/1.1" 200
+10:42:39 - [INFO] - 127.0.0.1:62195 - "GET /dashboard/positions HTTP/1.1" 200
+10:43:32 - [INFO] - watchdog_tick open_positions=2
+10:43:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:43:38 - [INFO] - 127.0.0.1:62198 - "GET /dashboard/positions HTTP/1.1" 200
+10:43:38 - [INFO] - 127.0.0.1:62198 - "GET /dashboard/trades HTTP/1.1" 200
+10:43:38 - [INFO] - 127.0.0.1:62198 - "GET /dashboard/summary HTTP/1.1" 200
+10:44:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:44:38 - [INFO] - 127.0.0.1:62246 - "GET /dashboard/trades HTTP/1.1" 200
+10:44:38 - [INFO] - 127.0.0.1:62246 - "GET /dashboard/summary HTTP/1.1" 200
+10:44:39 - [INFO] - 127.0.0.1:62245 - "GET /dashboard/positions HTTP/1.1" 200
+10:44:39 - [INFO] - watchdog_tick open_positions=2
+10:45:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:45:39 - [INFO] - 127.0.0.1:62252 - "GET /dashboard/positions HTTP/1.1" 200
+10:45:39 - [INFO] - 127.0.0.1:62258 - "GET /dashboard/trades HTTP/1.1" 200
+10:45:39 - [INFO] - 127.0.0.1:62259 - "GET /dashboard/summary HTTP/1.1" 200
+10:45:48 - [INFO] - watchdog_tick open_positions=2
+10:45:58 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:45:58 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69552.58000000 ema_fast=69775.75986503 tolerance_mult=1.001500 tolerance_ceiling=69880.42350483 below_ema_fast=true
+10:45:58 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.57), reclaim ok (0.05), below EMA fast, SYM=BTC/USDT
+10:45:59 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69552.58000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:45:59 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:45:59 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69552.58, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 69552.58, 'stop_loss': 69310.45428571, 'take_profit': 69915.76857143, 'reason': '1H bias=UP, ATR% ok (0.29), pullback ok (0.57), reclaim ok (0.05), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 201.77142857142982, 'atr_pct': 0.002900991287043986, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 69775.75986503}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 992.3574178912982, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+10:46:01 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2011.98000000 ema_fast=2022.83527187 tolerance_mult=1.001500 tolerance_ceiling=2025.86952478 below_ema_fast=true
+10:46:01 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.61), reclaim ok (0.04), below EMA fast, SYM=ETH/USDT
+10:46:01 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2011.98000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:46:01 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:46:01 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2011.98, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2011.98, 'stop_loss': 2003.99142857, 'take_profit': 2023.96285714, 'reason': '1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.61), reclaim ok (0.04), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 6.657142857142844, 'atr_pct': 0.0033087520040670604, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'NEUTRAL', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2022.83527187}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 992.3574178912982, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+10:46:03 - [INFO] - 🧾 ROUND#4 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:46:03 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.57), reclaim ok (0.05), below EMA fast, SYM=BTC/USDT
+10:46:03 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.61), reclaim ok (0.04), below EMA fast, SYM=ETH/USDT
+10:46:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:46:39 - [INFO] - 127.0.0.1:62265 - "GET /dashboard/positions HTTP/1.1" 200
+10:46:39 - [INFO] - 127.0.0.1:62266 - "GET /dashboard/trades HTTP/1.1" 200
+10:46:39 - [INFO] - 127.0.0.1:62267 - "GET /dashboard/summary HTTP/1.1" 200
+10:46:55 - [INFO] - watchdog_tick open_positions=2
+10:47:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:47:39 - [INFO] - 127.0.0.1:62271 - "GET /dashboard/trades HTTP/1.1" 200
+10:47:39 - [INFO] - 127.0.0.1:62272 - "GET /dashboard/summary HTTP/1.1" 200
+10:47:39 - [INFO] - 127.0.0.1:62268 - "GET /dashboard/positions HTTP/1.1" 200
+10:48:03 - [INFO] - watchdog_tick open_positions=2
+10:48:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:48:39 - [INFO] - 127.0.0.1:62279 - "GET /dashboard/trades HTTP/1.1" 200
+10:48:39 - [INFO] - 127.0.0.1:62280 - "GET /dashboard/summary HTTP/1.1" 200
+10:48:39 - [INFO] - 127.0.0.1:62278 - "GET /dashboard/positions HTTP/1.1" 200
+10:49:10 - [INFO] - watchdog_tick open_positions=2
+10:49:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:49:39 - [INFO] - 127.0.0.1:62288 - "GET /dashboard/trades HTTP/1.1" 200
+10:49:39 - [INFO] - 127.0.0.1:62289 - "GET /dashboard/summary HTTP/1.1" 200
+10:49:40 - [INFO] - 127.0.0.1:62281 - "GET /dashboard/positions HTTP/1.1" 200
+10:50:19 - [INFO] - watchdog_tick open_positions=2
+10:50:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:50:39 - [INFO] - 127.0.0.1:62296 - "GET /dashboard/trades HTTP/1.1" 200
+10:50:39 - [INFO] - 127.0.0.1:62297 - "GET /dashboard/summary HTTP/1.1" 200
+10:50:39 - [INFO] - 127.0.0.1:62295 - "GET /dashboard/positions HTTP/1.1" 200
+10:51:03 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:51:04 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69701.06000000 ema_fast=69789.90081741 tolerance_mult=1.001500 tolerance_ceiling=69894.58566864 below_ema_fast=true
+10:51:04 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.36), reclaim ok (0.26), below EMA fast, SYM=BTC/USDT
+10:51:04 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69701.06000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:51:04 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:51:06 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2014.15000000 ema_fast=2023.04193854 tolerance_mult=1.001500 tolerance_ceiling=2026.07650145 below_ema_fast=true
+10:51:06 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.50), reclaim ok (0.15), below EMA fast, SYM=ETH/USDT
+10:51:06 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2014.15000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:51:06 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:51:07 - [INFO] - 🧾 ROUND#5 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:51:07 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.36), reclaim ok (0.26), below EMA fast, SYM=BTC/USDT
+10:51:07 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.50), reclaim ok (0.15), below EMA fast, SYM=ETH/USDT
+10:51:26 - [INFO] - watchdog_tick open_positions=2
+10:51:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:51:38 - [INFO] - 127.0.0.1:62298 - "GET /dashboard/positions HTTP/1.1" 200
+10:51:38 - [INFO] - 127.0.0.1:62298 - "GET /dashboard/trades HTTP/1.1" 200
+10:51:38 - [INFO] - 127.0.0.1:62298 - "GET /dashboard/summary HTTP/1.1" 200
+10:52:34 - [INFO] - watchdog_tick open_positions=2
+10:52:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:52:38 - [INFO] - 127.0.0.1:62304 - "GET /dashboard/trades HTTP/1.1" 200
+10:52:38 - [INFO] - 127.0.0.1:62304 - "GET /dashboard/summary HTTP/1.1" 200
+10:52:39 - [INFO] - 127.0.0.1:62303 - "GET /dashboard/positions HTTP/1.1" 200
+10:53:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:53:39 - [INFO] - 127.0.0.1:62364 - "GET /dashboard/summary HTTP/1.1" 200
+10:53:39 - [INFO] - 127.0.0.1:62363 - "GET /dashboard/trades HTTP/1.1" 200
+10:53:39 - [INFO] - 127.0.0.1:62318 - "GET /dashboard/positions HTTP/1.1" 200
+10:53:40 - [INFO] - watchdog_tick open_positions=2
+10:54:36 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:54:36 - [INFO] - 127.0.0.1:62423 - "GET /dashboard/trades HTTP/1.1" 200
+10:54:36 - [INFO] - 127.0.0.1:62424 - "GET /dashboard/summary HTTP/1.1" 200
+10:54:37 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:54:40 - [INFO] - 127.0.0.1:62423 - "GET /dashboard/summary HTTP/1.1" 200
+10:54:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:54:40 - [INFO] - 127.0.0.1:62424 - "GET /dashboard/trades HTTP/1.1" 200
+10:54:41 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:54:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:54:45 - [INFO] - 127.0.0.1:62425 - "GET /dashboard/summary HTTP/1.1" 200
+10:54:45 - [INFO] - 127.0.0.1:62425 - "GET /dashboard/trades HTTP/1.1" 200
+10:54:46 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:54:47 - [INFO] - watchdog_tick open_positions=2
+10:54:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:54:50 - [INFO] - 127.0.0.1:62425 - "GET /dashboard/trades HTTP/1.1" 200
+10:54:50 - [INFO] - 127.0.0.1:62506 - "GET /dashboard/summary HTTP/1.1" 200
+10:54:51 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:54:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:54:55 - [INFO] - 127.0.0.1:62535 - "GET /dashboard/trades HTTP/1.1" 200
+10:54:55 - [INFO] - 127.0.0.1:62536 - "GET /dashboard/summary HTTP/1.1" 200
+10:54:56 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:00 - [INFO] - 127.0.0.1:62535 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:00 - [INFO] - 127.0.0.1:62536 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:01 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:05 - [INFO] - 127.0.0.1:62536 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:05 - [INFO] - 127.0.0.1:62535 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:06 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:10 - [INFO] - 127.0.0.1:62550 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:10 - [INFO] - 127.0.0.1:62549 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:11 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:16 - [INFO] - 127.0.0.1:62554 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:16 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:16 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:20 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:20 - [INFO] - 127.0.0.1:62554 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:21 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:25 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:25 - [INFO] - 127.0.0.1:62554 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:26 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:30 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:30 - [INFO] - 127.0.0.1:62554 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:30 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:31 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:35 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:35 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:35 - [INFO] - 127.0.0.1:62555 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:36 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:40 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:40 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:41 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:45 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:45 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:46 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:47 - [INFO] - watchdog_tick open_positions=2
+10:55:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:50 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:50 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:51 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:55:55 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/trades HTTP/1.1" 200
+10:55:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:55:55 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/summary HTTP/1.1" 200
+10:55:56 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:00 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:00 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:01 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:05 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:05 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:06 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:07 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+10:56:07 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69655.01000000 ema_fast=69785.51510312 tolerance_mult=1.001500 tolerance_ceiling=69890.19337578 below_ema_fast=true
+10:56:07 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.42), reclaim ok (0.19), below EMA fast, SYM=BTC/USDT
+10:56:07 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69655.01000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:56:07 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:56:07 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69655.01, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 69655.01, 'stop_loss': 69395.75428571, 'take_profit': 70043.89357143, 'reason': '1H bias=UP, ATR% ok (0.31), pullback ok (0.42), reclaim ok (0.19), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 216.04642857143023, 'atr_pct': 0.0031016638799051246, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 69785.51510312}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 993.311827691298, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+10:56:09 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2013.99000000 ema_fast=2023.02670044 tolerance_mult=1.001500 tolerance_ceiling=2026.06124050 below_ema_fast=true
+10:56:09 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.51), reclaim ok (0.14), below EMA fast, SYM=ETH/USDT
+10:56:10 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2013.99000000 risk_multiplier=1.0000 corr_factor=1.0000
+10:56:10 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+10:56:10 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2013.99, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2013.99, 'stop_loss': 2005.67828571, 'take_profit': 2026.45757143, 'reason': '1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.51), reclaim ok (0.14), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 6.926428571428573, 'atr_pct': 0.00343915737984229, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'NEUTRAL', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2023.02670044}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 993.3355054912981, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+10:56:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:10 - [INFO] - 127.0.0.1:62588 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:10 - [INFO] - 127.0.0.1:62422 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:10 - [INFO] - 127.0.0.1:62591 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:11 - [INFO] - 🧾 ROUND#6 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+10:56:11 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.42), reclaim ok (0.19), below EMA fast, SYM=BTC/USDT
+10:56:11 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.51), reclaim ok (0.14), below EMA fast, SYM=ETH/USDT
+10:56:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:39 - [INFO] - 127.0.0.1:62616 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:39 - [INFO] - 127.0.0.1:62617 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:39 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:42 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:42 - [INFO] - 127.0.0.1:62617 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:42 - [INFO] - 127.0.0.1:62616 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:43 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:45 - [INFO] - 127.0.0.1:62616 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:45 - [INFO] - 127.0.0.1:62617 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:46 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:50 - [INFO] - watchdog_tick open_positions=2
+10:56:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:50 - [INFO] - 127.0.0.1:62618 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:50 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:50 - [INFO] - 127.0.0.1:62618 - "GET /dashboard/summary HTTP/1.1" 200
+10:56:56 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:56:56 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/trades HTTP/1.1" 200
+10:56:56 - [INFO] - 127.0.0.1:62618 - "GET /dashboard/positions HTTP/1.1" 200
+10:56:56 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:00 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:00 - [INFO] - 127.0.0.1:62618 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:01 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:05 - [INFO] - 127.0.0.1:62615 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:05 - [INFO] - 127.0.0.1:62618 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:06 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:10 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:11 - [INFO] - 127.0.0.1:62651 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:11 - [INFO] - 127.0.0.1:62652 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:11 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:15 - [INFO] - 127.0.0.1:62652 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:15 - [INFO] - 127.0.0.1:62651 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:16 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:20 - [INFO] - 127.0.0.1:62651 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:20 - [INFO] - 127.0.0.1:62652 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:21 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:25 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:26 - [INFO] - 127.0.0.1:62657 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:26 - [INFO] - 127.0.0.1:62656 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:26 - [INFO] - 127.0.0.1:62630 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:31 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:31 - [INFO] - 127.0.0.1:62664 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:31 - [INFO] - 127.0.0.1:62665 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:31 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:35 - [INFO] - 127.0.0.1:62665 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:35 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:35 - [INFO] - 127.0.0.1:62664 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:36 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:40 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:40 - [INFO] - 127.0.0.1:62666 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:40 - [INFO] - 127.0.0.1:62666 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:41 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:45 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:45 - [INFO] - 127.0.0.1:62666 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:45 - [INFO] - 127.0.0.1:62669 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:46 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:50 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:51 - [INFO] - 127.0.0.1:62673 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:51 - [INFO] - 127.0.0.1:62674 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:51 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:57:51 - [INFO] - watchdog_tick open_positions=2
+10:57:55 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:57:55 - [INFO] - 127.0.0.1:62674 - "GET /dashboard/trades HTTP/1.1" 200
+10:57:55 - [INFO] - 127.0.0.1:62673 - "GET /dashboard/summary HTTP/1.1" 200
+10:57:56 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:00 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:58:00 - [INFO] - 127.0.0.1:62674 - "GET /dashboard/summary HTTP/1.1" 200
+10:58:00 - [INFO] - 127.0.0.1:62673 - "GET /dashboard/trades HTTP/1.1" 200
+10:58:01 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:05 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:58:05 - [INFO] - 127.0.0.1:62673 - "GET /dashboard/trades HTTP/1.1" 200
+10:58:05 - [INFO] - 127.0.0.1:62674 - "GET /dashboard/summary HTTP/1.1" 200
+10:58:06 - [INFO] - 127.0.0.1:62663 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:13 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:58:13 - [INFO] - 127.0.0.1:62688 - "GET /dashboard/trades HTTP/1.1" 200
+10:58:13 - [INFO] - 127.0.0.1:62687 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:13 - [INFO] - 127.0.0.1:62689 - "GET /dashboard/summary HTTP/1.1" 200
+10:58:15 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:58:15 - [INFO] - 127.0.0.1:62688 - "GET /dashboard/summary HTTP/1.1" 200
+10:58:15 - [INFO] - 127.0.0.1:62687 - "GET /dashboard/trades HTTP/1.1" 200
+10:58:16 - [INFO] - 127.0.0.1:62689 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:20 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+10:58:20 - [INFO] - 127.0.0.1:62691 - "GET /dashboard/trades HTTP/1.1" 200
+10:58:20 - [INFO] - 127.0.0.1:62691 - "GET /dashboard/summary HTTP/1.1" 200
+10:58:21 - [INFO] - 127.0.0.1:62689 - "GET /dashboard/positions HTTP/1.1" 200
+10:58:57 - [INFO] - watchdog_tick open_positions=2
+11:00:05 - [INFO] - watchdog_tick open_positions=2
+11:01:12 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:01:12 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69726.52000000 ema_fast=69779.31747402 tolerance_mult=1.001500 tolerance_ceiling=69883.98645023 below_ema_fast=true
+11:01:12 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.24), reclaim ok (0.11), below EMA fast, SYM=BTC/USDT
+11:01:13 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69726.52000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:01:13 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:01:13 - [INFO] - watchdog_tick open_positions=2
+11:01:14 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2014.53000000 ema_fast=2022.09254755 tolerance_mult=1.001500 tolerance_ceiling=2025.12568637 below_ema_fast=true
+11:01:14 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.44), reclaim ok (0.10), below EMA fast, SYM=ETH/USDT
+11:01:15 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2014.53000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:01:15 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:01:17 - [INFO] - 🧾 ROUND#7 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:01:17 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.24), reclaim ok (0.11), below EMA fast, SYM=BTC/USDT
+11:01:17 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.44), reclaim ok (0.10), below EMA fast, SYM=ETH/USDT
+11:02:20 - [INFO] - watchdog_tick open_positions=2
+11:03:28 - [INFO] - watchdog_tick open_positions=2
+11:04:36 - [INFO] - watchdog_tick open_positions=2
+11:04:50 - [INFO] - Shutting down
+11:04:50 - [INFO] - Waiting for application shutdown.
+11:04:50 - [INFO] - Application shutdown complete.
+11:04:50 - [INFO] - Finished server process [9816]
+11:05:36 - [INFO] - ============================================================
+11:05:36 - [INFO] - 🤖 CRYPTO TRADING BOT BAŞLATILIYOR
+11:05:36 - [INFO] - 📊 Log dosyaları: logs/bot.log.YYYY-MM-DD_HH
+11:05:36 - [INFO] - 🔄 Otomatik saatlik rotation: AKTIF
+11:05:36 - [INFO] - 💾 7 günlük log saklanacak
+11:05:36 - [INFO] - ============================================================
+11:05:45 - [INFO] - Started server process [10432]
+11:05:45 - [INFO] - Waiting for application startup.
+11:05:45 - [INFO] - ✅ DB path resolved: C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db
+11:05:45 - [INFO] - startup_state db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db open_positions_on_start=2
+11:05:45 - [WARNING] - startup_state stale open positions detected in V1 test mode: count=2; logging only, no auto-pause/disable here. Runtime pause decisions remain in trader/risk checks.
+11:05:45 - [INFO] - 🧪 TEST_MODE: Binance PUBLIC veri (live endpoint) kullanılacak. Emirler simüle.
+11:05:50 - [INFO] - ✅ Binance piyasa verileri yüklendi.
+11:05:50 - [INFO] - strategy_config {'version': 'grid_v1', 'grid_lower': 60000.0, 'grid_upper': 75000.0, 'grid_count': 100, 'capital_per_grid': 30.0, 'emergency_stop_pct': 0.15, 'min_atr_pct': 0.001, 'max_atr_pct': 0.05, 'min_volume_ratio': 0.3}
+11:05:50 - [INFO] - ✅ 1H TrendBiasService hazır (TTL cache aktif).
+11:05:50 - [INFO] - ✅ CorrelationService hazır (research.db, TTL cache).
+11:05:50 - [INFO] - universe_loaded symbols=['BTC/USDT', 'ETH/USDT'] updated_at=2026-03-11T03:07:19
+11:05:50 - [WARNING] - V1 force universe aktif: BTC/USDT,ETH/USDT
+11:05:50 - [INFO] - Telegram notifier disabled via TELEGRAM_ENABLED=false; network calls suppressed.
+11:05:50 - [WARNING] - Universe rebuild loop pasif: V1 force universe aktif.
+11:05:50 - [INFO] - --- 🛡️ WATCHDOG LOOP AKTİF (5s) ---
+11:05:50 - [INFO] - --- 🔎 SCANNER LOOP AKTİF ---
+11:05:50 - [INFO] - Application startup complete.
+11:05:50 - [INFO] - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+11:05:56 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:05:57 - [INFO] - trend_bias_computed
+11:05:57 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69764.45000000 ema_fast=69782.92985497 tolerance_mult=1.001500 tolerance_ceiling=69887.60424975 below_ema_fast=true
+11:05:57 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.18), reclaim ok (0.17), below EMA fast, SYM=BTC/USDT
+11:05:57 - [WARNING] - corr_load_failed
+11:05:57 - [WARNING] - corr_load_failed
+11:05:57 - [INFO] - corr_matrix_computed
+11:05:57 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69764.45000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:05:57 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:05:57 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69764.45, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 69764.45, 'stop_loss': 69504.52657143, 'take_profit': 70154.33514286, 'reason': '1H bias=UP, ATR% ok (0.31), pullback ok (0.18), reclaim ok (0.17), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 216.60285714285834, 'atr_pct': 0.0031047740954434295, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 69782.92985497}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 994.3230279912981, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+11:06:00 - [INFO] - trend_bias_computed
+11:06:00 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2015.66000000 ema_fast=2022.20016660 tolerance_mult=1.001500 tolerance_ceiling=2025.23346685 below_ema_fast=true
+11:06:00 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.38), reclaim ok (0.16), below EMA fast, SYM=ETH/USDT
+11:06:00 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2015.66000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:06:00 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:06:00 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2015.66, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2015.66, 'stop_loss': 2007.42542857, 'take_profit': 2028.01185714, 'reason': '1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.38), reclaim ok (0.16), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 6.862142857142869, 'atr_pct': 0.0034044148602159438, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'NEUTRAL', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2022.2001666}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 994.3217236912982, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+11:06:02 - [INFO] - 🧾 ROUND#1 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:06:02 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.31), pullback ok (0.18), reclaim ok (0.17), below EMA fast, SYM=BTC/USDT
+11:06:02 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.38), reclaim ok (0.16), below EMA fast, SYM=ETH/USDT
+11:06:02 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:02 - [INFO] - 127.0.0.1:63851 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:02 - [INFO] - 127.0.0.1:63852 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:02 - [INFO] - 127.0.0.1:63852 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:02 - [INFO] - 127.0.0.1:63851 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:03 - [INFO] - 127.0.0.1:63850 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:03 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:03 - [INFO] - 127.0.0.1:63850 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:07 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:07 - [INFO] - 127.0.0.1:63850 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:07 - [INFO] - 127.0.0.1:63852 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:07 - [INFO] - 127.0.0.1:63851 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:13 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:13 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:13 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:13 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:17 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:17 - [INFO] - 127.0.0.1:63865 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:17 - [INFO] - 127.0.0.1:63866 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:18 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:22 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:22 - [INFO] - 127.0.0.1:63866 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:22 - [INFO] - 127.0.0.1:63865 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:23 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:27 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:27 - [INFO] - 127.0.0.1:63866 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:27 - [INFO] - 127.0.0.1:63865 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:28 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:32 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:33 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:33 - [INFO] - 127.0.0.1:63871 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:33 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:37 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:37 - [INFO] - 127.0.0.1:63871 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:37 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:38 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:42 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:42 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:42 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:43 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:47 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:47 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:47 - [INFO] - 127.0.0.1:63879 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:48 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:48 - [INFO] - watchdog_tick open_positions=2
+11:06:52 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:52 - [INFO] - 127.0.0.1:63870 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:52 - [INFO] - 127.0.0.1:63879 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:53 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:06:57 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:06:58 - [INFO] - 127.0.0.1:63882 - "GET /dashboard/trades HTTP/1.1" 200
+11:06:58 - [INFO] - 127.0.0.1:63883 - "GET /dashboard/summary HTTP/1.1" 200
+11:06:58 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:07:02 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:07:02 - [INFO] - 127.0.0.1:63882 - "GET /dashboard/summary HTTP/1.1" 200
+11:07:02 - [INFO] - 127.0.0.1:63883 - "GET /dashboard/trades HTTP/1.1" 200
+11:07:03 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:07:07 - [INFO] - 127.0.0.1:63882 - "GET /dashboard/summary HTTP/1.1" 200
+11:07:07 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:07:07 - [INFO] - 127.0.0.1:63883 - "GET /dashboard/trades HTTP/1.1" 200
+11:07:09 - [INFO] - 127.0.0.1:63853 - "GET /dashboard/positions HTTP/1.1" 200
+11:07:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:07:39 - [INFO] - 127.0.0.1:63912 - "GET /dashboard/positions HTTP/1.1" 200
+11:07:39 - [INFO] - 127.0.0.1:63913 - "GET /dashboard/trades HTTP/1.1" 200
+11:07:39 - [INFO] - 127.0.0.1:63914 - "GET /dashboard/summary HTTP/1.1" 200
+11:07:53 - [INFO] - watchdog_tick open_positions=2
+11:08:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:08:38 - [INFO] - 127.0.0.1:63915 - "GET /dashboard/positions HTTP/1.1" 200
+11:08:38 - [INFO] - 127.0.0.1:63915 - "GET /dashboard/trades HTTP/1.1" 200
+11:08:38 - [INFO] - 127.0.0.1:63915 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:00 - [INFO] - watchdog_tick open_positions=2
+11:09:03 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:03 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:03 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:04 - [INFO] - 127.0.0.1:63931 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:07 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:07 - [INFO] - 127.0.0.1:63939 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:07 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:08 - [INFO] - 127.0.0.1:63931 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:12 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:12 - [INFO] - 127.0.0.1:63939 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:12 - [INFO] - 127.0.0.1:63931 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:12 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:17 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:17 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:17 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:17 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:22 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:22 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:22 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:22 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:28 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:28 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:28 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:28 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:32 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:32 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:32 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:33 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:37 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:37 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:37 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:38 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:42 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:42 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:42 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:43 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:47 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:47 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:47 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:48 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:52 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:52 - [INFO] - 127.0.0.1:63944 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:52 - [INFO] - 127.0.0.1:63945 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:53 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:09:57 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:09:58 - [INFO] - 127.0.0.1:63960 - "GET /dashboard/trades HTTP/1.1" 200
+11:09:58 - [INFO] - 127.0.0.1:63961 - "GET /dashboard/summary HTTP/1.1" 200
+11:09:58 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:10:02 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:10:02 - [INFO] - 127.0.0.1:63960 - "GET /dashboard/summary HTTP/1.1" 200
+11:10:02 - [INFO] - 127.0.0.1:63961 - "GET /dashboard/trades HTTP/1.1" 200
+11:10:03 - [INFO] - 127.0.0.1:63932 - "GET /dashboard/positions HTTP/1.1" 200
+11:10:03 - [INFO] - watchdog_tick open_positions=2
+11:10:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:10:39 - [INFO] - 127.0.0.1:63972 - "GET /dashboard/trades HTTP/1.1" 200
+11:10:39 - [INFO] - 127.0.0.1:63973 - "GET /dashboard/summary HTTP/1.1" 200
+11:10:39 - [INFO] - 127.0.0.1:63971 - "GET /dashboard/positions HTTP/1.1" 200
+11:11:02 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:11:03 - [INFO] - ⚡ Trade: BUY 0.00356000 BTC/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+11:11:03 - [INFO] - 🧪 [PAPER] BUY 0.00356 BTC/USDT @ mid=69638.850000 exec=69648.773423 fee=0.247950 slip_bps=1.425 id=po_872257b677e4e16e5e35584f
+11:11:03 - [INFO] - trade order_filled symbol=BTC/USDT signal=BUY order_id=po_872257b677e4e16e5e35584f exec_amount=0.00356000 exec_price=69648.77342262 cost=247.94963338
+11:11:03 - [INFO] - trade position_updated symbol=BTC/USDT signal=BUY exec_amount=0.00356000 exec_price=69648.77342262 fee=0.24794963 realized_pnl=0.00000000 gross_pnl=None total_fees=0.24794963338452253 net_pnl=None
+11:11:03 - [INFO] - trade audit_persisted trade_id=10 symbol=BTC/USDT side=BUY realized_pnl=0.00000000 fee=0.24794963 total_fees=0.24794963338452253 gross_pnl=None net_pnl=None
+11:11:03 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+11:11:03 - [INFO] - 📢 RAPOR: {'symbol': 'BTC/USDT', 'price': 69638.85, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68246.073, 'take_profit': 71031.62700000001, 'current_price': 69638.85, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0004307940179942661, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 69750.0, 'quantity': 0.00043010752688172043, 'action': 'BUY'}}, 'paper_usdt': 248.37038849129814, 'paper_equity_usdt': 993.084654691298, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_872257b677e4e16e5e35584f', 'clientOrderId': '872257b677e4e16e5e35584f081ca4e29b250ddd950159549b1ad20966098509', 'symbol': 'BTC/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.00356, 'filled': 0.00356, 'price': 69648.77342261869, 'average': 69648.77342261869, 'cost': 247.9496333845225, 'fee': 0.24794963338452253, 'status': 'closed', 'timestamp': 1773216663041, 'info': {'mode': 'paper', 'mid_price': 69638.85, 'slippage_bps': 1.4249837007197366, 'reason': 'AUTO_SIGNAL'}}}
+11:11:04 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2012.90000000 ema_fast=2021.93730946 tolerance_mult=1.001500 tolerance_ceiling=2024.97021542 below_ema_fast=true
+11:11:04 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.52), reclaim ok (0.02), below EMA fast, SYM=ETH/USDT
+11:11:04 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2012.90000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:11:04 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:11:06 - [INFO] - 🧾 ROUND#2 summary: BUY=1 SELL=0 HOLD=1 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:11:06 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+11:11:06 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.34), pullback ok (0.52), reclaim ok (0.02), below EMA fast, SYM=ETH/USDT
+11:11:10 - [INFO] - watchdog_tick open_positions=2
+11:11:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:11:38 - [INFO] - 127.0.0.1:63974 - "GET /dashboard/positions HTTP/1.1" 200
+11:11:38 - [INFO] - 127.0.0.1:63974 - "GET /dashboard/trades HTTP/1.1" 200
+11:11:38 - [INFO] - 127.0.0.1:63974 - "GET /dashboard/summary HTTP/1.1" 200
+11:12:17 - [INFO] - watchdog_tick open_positions=2
+11:12:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:12:39 - [INFO] - 127.0.0.1:63977 - "GET /dashboard/positions HTTP/1.1" 200
+11:12:39 - [INFO] - 127.0.0.1:63978 - "GET /dashboard/trades HTTP/1.1" 200
+11:12:39 - [INFO] - 127.0.0.1:63981 - "GET /dashboard/summary HTTP/1.1" 200
+11:13:23 - [INFO] - watchdog_tick open_positions=2
+11:13:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:13:39 - [INFO] - 127.0.0.1:63988 - "GET /dashboard/trades HTTP/1.1" 200
+11:13:39 - [INFO] - 127.0.0.1:63989 - "GET /dashboard/summary HTTP/1.1" 200
+11:13:39 - [INFO] - 127.0.0.1:63987 - "GET /dashboard/positions HTTP/1.1" 200
+11:14:30 - [INFO] - watchdog_tick open_positions=2
+11:14:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:14:39 - [INFO] - 127.0.0.1:64048 - "GET /dashboard/trades HTTP/1.1" 200
+11:14:39 - [INFO] - 127.0.0.1:64049 - "GET /dashboard/summary HTTP/1.1" 200
+11:14:39 - [INFO] - 127.0.0.1:63990 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:12 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:12 - [INFO] - 127.0.0.1:64062 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:12 - [INFO] - 127.0.0.1:64061 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:13 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:17 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:17 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:17 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:18 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:22 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:22 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:22 - [INFO] - 127.0.0.1:64069 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:23 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:27 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:27 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:27 - [INFO] - 127.0.0.1:64069 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:28 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:32 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:32 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:32 - [INFO] - 127.0.0.1:64069 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:33 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:33 - [INFO] - watchdog_tick open_positions=2
+11:15:37 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:37 - [INFO] - 127.0.0.1:64069 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:37 - [INFO] - 127.0.0.1:64063 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:38 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:42 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:43 - [INFO] - 127.0.0.1:64080 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:43 - [INFO] - 127.0.0.1:64079 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:43 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:47 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:47 - [INFO] - 127.0.0.1:64080 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:47 - [INFO] - 127.0.0.1:64079 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:48 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:52 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:52 - [INFO] - 127.0.0.1:64080 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:52 - [INFO] - 127.0.0.1:64079 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:53 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:15:57 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:15:58 - [INFO] - 127.0.0.1:64083 - "GET /dashboard/trades HTTP/1.1" 200
+11:15:58 - [INFO] - 127.0.0.1:64084 - "GET /dashboard/summary HTTP/1.1" 200
+11:15:58 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:16:02 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:16:02 - [INFO] - 127.0.0.1:64083 - "GET /dashboard/summary HTTP/1.1" 200
+11:16:02 - [INFO] - 127.0.0.1:64084 - "GET /dashboard/trades HTTP/1.1" 200
+11:16:03 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:16:06 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:16:06 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69638.99000000 ema_fast=69757.59812246 tolerance_mult=1.001500 tolerance_ceiling=69862.23451964 below_ema_fast=true
+11:16:06 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.22), reclaim ok (0.01), below EMA fast, SYM=BTC/USDT
+11:16:07 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69638.99000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:16:07 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:16:07 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69638.99, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 69638.99, 'stop_loss': 69398.14914286, 'take_profit': 70000.25128571, 'reason': '1H bias=UP, ATR% ok (0.29), pullback ok (0.22), reclaim ok (0.01), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 200.70071428571515, 'atr_pct': 0.0028820164434566775, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 69757.59812246}, 'paper_usdt': 0.17280547339109376, 'paper_equity_usdt': 992.8066265733911, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+11:16:07 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:16:07 - [INFO] - 127.0.0.1:64083 - "GET /dashboard/summary HTTP/1.1" 200
+11:16:07 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/positions HTTP/1.1" 200
+11:16:07 - [INFO] - 127.0.0.1:64084 - "GET /dashboard/trades HTTP/1.1" 200
+11:16:09 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2013.31000000 ema_fast=2021.11221421 tolerance_mult=1.001500 tolerance_ceiling=2024.14388253 below_ema_fast=true
+11:16:09 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.32), pullback ok (0.30), reclaim ok (0.02), below EMA fast, SYM=ETH/USDT
+11:16:09 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2013.31000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:16:09 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:16:09 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2013.31, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2013.31, 'stop_loss': 2005.492, 'take_profit': 2025.037, 'reason': '1H bias=NEUTRAL (allowed), ATR% ok (0.32), pullback ok (0.30), reclaim ok (0.02), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 6.515000000000019, 'atr_pct': 0.0032359646552195236, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'NEUTRAL', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2021.11221421}, 'paper_usdt': 0.17280547339109376, 'paper_equity_usdt': 992.8066265733911, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+11:16:10 - [INFO] - 🧾 ROUND#3 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:16:10 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.22), reclaim ok (0.01), below EMA fast, SYM=BTC/USDT
+11:16:10 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.32), pullback ok (0.30), reclaim ok (0.02), below EMA fast, SYM=ETH/USDT
+11:16:12 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:16:12 - [INFO] - 127.0.0.1:64083 - "GET /dashboard/summary HTTP/1.1" 200
+11:16:12 - [INFO] - 127.0.0.1:64060 - "GET /dashboard/trades HTTP/1.1" 200
+11:16:13 - [INFO] - 127.0.0.1:64084 - "GET /dashboard/positions HTTP/1.1" 200
+11:16:36 - [INFO] - watchdog_tick open_positions=2
+11:16:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:16:39 - [INFO] - 127.0.0.1:64204 - "GET /dashboard/trades HTTP/1.1" 200
+11:16:39 - [INFO] - 127.0.0.1:64205 - "GET /dashboard/summary HTTP/1.1" 200
+11:16:39 - [INFO] - 127.0.0.1:64203 - "GET /dashboard/positions HTTP/1.1" 200
+11:17:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:17:38 - [INFO] - 127.0.0.1:64206 - "GET /dashboard/positions HTTP/1.1" 200
+11:17:38 - [INFO] - 127.0.0.1:64206 - "GET /dashboard/trades HTTP/1.1" 200
+11:17:38 - [INFO] - 127.0.0.1:64206 - "GET /dashboard/summary HTTP/1.1" 200
+11:17:42 - [INFO] - watchdog_tick open_positions=2
+11:18:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:18:38 - [INFO] - 127.0.0.1:64267 - "GET /dashboard/trades HTTP/1.1" 200
+11:18:38 - [INFO] - 127.0.0.1:64266 - "GET /dashboard/positions HTTP/1.1" 200
+11:18:38 - [INFO] - 127.0.0.1:64267 - "GET /dashboard/summary HTTP/1.1" 200
+11:18:49 - [INFO] - watchdog_tick open_positions=2
+11:19:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:19:39 - [INFO] - 127.0.0.1:64311 - "GET /dashboard/summary HTTP/1.1" 200
+11:19:39 - [INFO] - 127.0.0.1:64310 - "GET /dashboard/trades HTTP/1.1" 200
+11:19:39 - [INFO] - 127.0.0.1:64306 - "GET /dashboard/positions HTTP/1.1" 200
+11:19:56 - [INFO] - watchdog_tick open_positions=2
+11:20:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:20:39 - [INFO] - 127.0.0.1:64352 - "GET /dashboard/summary HTTP/1.1" 200
+11:20:39 - [INFO] - 127.0.0.1:64351 - "GET /dashboard/trades HTTP/1.1" 200
+11:20:39 - [INFO] - 127.0.0.1:64350 - "GET /dashboard/positions HTTP/1.1" 200
+11:21:04 - [INFO] - watchdog_tick open_positions=2
+11:21:10 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:21:10 - [WARNING] - Yetersiz Bakiye (USDT): 0.17
+11:21:10 - [INFO] - analysis trade_rejected symbol=BTC/USDT decision=BUY price=69528.41000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+11:21:10 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=trader_rejected price=69528.41000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:21:10 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+11:21:10 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69528.41, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68137.84180000001, 'take_profit': 70918.9782, 'current_price': 69528.41, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0004314782978641393, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 69600.0, 'quantity': 0.0004310344827586207, 'action': 'BUY'}}, 'paper_usdt': 0.17280547339109376, 'paper_equity_usdt': 991.222586373391, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+11:21:13 - [WARNING] - Yetersiz Bakiye (USDT): 0.17
+11:21:13 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2009.57000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+11:21:13 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2009.57000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:21:13 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+11:21:13 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2009.57, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 1969.3786, 'take_profit': 2049.7614, 'current_price': 2009.57, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.01492856680782456, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2012.0, 'quantity': 0.014910536779324055, 'action': 'BUY'}}, 'paper_usdt': 0.17280547339109376, 'paper_equity_usdt': 991.211489373391, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+11:21:14 - [INFO] - 🧾 ROUND#4 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:21:14 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+11:21:14 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+11:21:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:21:38 - [INFO] - 127.0.0.1:64353 - "GET /dashboard/positions HTTP/1.1" 200
+11:21:38 - [INFO] - 127.0.0.1:64353 - "GET /dashboard/trades HTTP/1.1" 200
+11:21:38 - [INFO] - 127.0.0.1:64353 - "GET /dashboard/summary HTTP/1.1" 200
+11:22:11 - [INFO] - watchdog_tick open_positions=2
+11:22:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:22:38 - [INFO] - 127.0.0.1:64364 - "GET /dashboard/trades HTTP/1.1" 200
+11:22:38 - [INFO] - 127.0.0.1:64364 - "GET /dashboard/summary HTTP/1.1" 200
+11:22:39 - [INFO] - 127.0.0.1:64363 - "GET /dashboard/positions HTTP/1.1" 200
+11:23:19 - [INFO] - watchdog_tick open_positions=2
+11:23:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:23:39 - [INFO] - 127.0.0.1:64509 - "GET /dashboard/summary HTTP/1.1" 200
+11:23:39 - [INFO] - 127.0.0.1:64508 - "GET /dashboard/trades HTTP/1.1" 200
+11:23:39 - [INFO] - 127.0.0.1:64378 - "GET /dashboard/positions HTTP/1.1" 200
+11:24:26 - [INFO] - watchdog_tick open_positions=2
+11:24:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:24:39 - [INFO] - 127.0.0.1:64632 - "GET /dashboard/summary HTTP/1.1" 200
+11:24:39 - [INFO] - 127.0.0.1:64630 - "GET /dashboard/positions HTTP/1.1" 200
+11:24:39 - [INFO] - 127.0.0.1:64631 - "GET /dashboard/trades HTTP/1.1" 200
+11:25:34 - [INFO] - watchdog_tick open_positions=2
+11:25:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:25:39 - [INFO] - 127.0.0.1:64670 - "GET /dashboard/summary HTTP/1.1" 200
+11:25:39 - [INFO] - 127.0.0.1:64669 - "GET /dashboard/trades HTTP/1.1" 200
+11:25:39 - [INFO] - 127.0.0.1:64633 - "GET /dashboard/positions HTTP/1.1" 200
+11:26:14 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:26:15 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69550.79000000 ema_fast=69749.19812246 tolerance_mult=1.001500 tolerance_ceiling=69853.82191964 below_ema_fast=true
+11:26:15 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.30), pullback ok (0.34), reclaim yok, below EMA fast, SYM=BTC/USDT
+11:26:17 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2011.84000000 ema_fast=2020.97221421 tolerance_mult=1.001500 tolerance_ceiling=2024.00367253 below_ema_fast=true
+11:26:17 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.33), pullback ok (0.38), reclaim yok, below EMA fast, SYM=ETH/USDT
+11:26:19 - [INFO] - 🧾 ROUND#5 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:26:19 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+11:26:19 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+11:26:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:26:39 - [INFO] - 127.0.0.1:64909 - "GET /dashboard/trades HTTP/1.1" 200
+11:26:39 - [INFO] - 127.0.0.1:64910 - "GET /dashboard/summary HTTP/1.1" 200
+11:26:39 - [INFO] - 127.0.0.1:64908 - "GET /dashboard/positions HTTP/1.1" 200
+11:26:40 - [INFO] - watchdog_tick open_positions=2
+11:27:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:27:39 - [INFO] - 127.0.0.1:65069 - "GET /dashboard/trades HTTP/1.1" 200
+11:27:39 - [INFO] - 127.0.0.1:65070 - "GET /dashboard/summary HTTP/1.1" 200
+11:27:39 - [INFO] - 127.0.0.1:65068 - "GET /dashboard/positions HTTP/1.1" 200
+11:27:46 - [INFO] - watchdog_tick open_positions=2
+11:28:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:28:39 - [INFO] - 127.0.0.1:65123 - "GET /dashboard/trades HTTP/1.1" 200
+11:28:39 - [INFO] - 127.0.0.1:65124 - "GET /dashboard/summary HTTP/1.1" 200
+11:28:39 - [INFO] - 127.0.0.1:65071 - "GET /dashboard/positions HTTP/1.1" 200
+11:28:53 - [INFO] - watchdog_tick open_positions=2
+11:29:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:29:39 - [INFO] - 127.0.0.1:65362 - "GET /dashboard/positions HTTP/1.1" 200
+11:29:39 - [INFO] - 127.0.0.1:65363 - "GET /dashboard/trades HTTP/1.1" 200
+11:29:39 - [INFO] - 127.0.0.1:65364 - "GET /dashboard/summary HTTP/1.1" 200
+11:30:00 - [INFO] - watchdog_tick open_positions=2
+11:30:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:30:39 - [INFO] - 127.0.0.1:65365 - "GET /dashboard/positions HTTP/1.1" 200
+11:30:39 - [INFO] - 127.0.0.1:65380 - "GET /dashboard/summary HTTP/1.1" 200
+11:30:39 - [INFO] - 127.0.0.1:65379 - "GET /dashboard/trades HTTP/1.1" 200
+11:31:08 - [INFO] - watchdog_tick open_positions=2
+11:31:19 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+11:31:19 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=69542.01000000 ema_fast=69725.39362987 tolerance_mult=1.001500 tolerance_ceiling=69829.98172032 below_ema_fast=true
+11:31:19 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.15), reclaim ok (0.06), below EMA fast, SYM=BTC/USDT
+11:31:19 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=69542.01000000 risk_multiplier=1.0000 corr_factor=1.0000
+11:31:19 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+11:31:19 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 69542.01, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 69542.01, 'stop_loss': 69304.58571429, 'take_profit': 69898.14642857, 'reason': '1H bias=UP, ATR% ok (0.28), pullback ok (0.15), reclaim ok (0.06), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 197.85357142857225, 'atr_pct': 0.002845094230502861, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 69725.39362987}, 'paper_usdt': 0.17280547339109376, 'paper_equity_usdt': 991.700987273391, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+11:31:21 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2012.29000000 ema_fast=2020.05916885 tolerance_mult=1.001500 tolerance_ceiling=2023.08925761 below_ema_fast=true
+11:31:21 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=['pullback_ok'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.32), pullback yok, reclaim ok (0.07), below EMA fast, SYM=ETH/USDT
+11:31:23 - [INFO] - 🧾 ROUND#6 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+11:31:23 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.15), reclaim ok (0.06), below EMA fast, SYM=BTC/USDT
+11:31:23 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+11:31:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:31:39 - [INFO] - 127.0.0.1:65390 - "GET /dashboard/trades HTTP/1.1" 200
+11:31:39 - [INFO] - 127.0.0.1:65391 - "GET /dashboard/summary HTTP/1.1" 200
+11:31:39 - [INFO] - 127.0.0.1:65389 - "GET /dashboard/positions HTTP/1.1" 200
+11:32:15 - [INFO] - watchdog_tick open_positions=2
+11:32:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+11:32:38 - [INFO] - 127.0.0.1:65392 - "GET /dashboard/positions HTTP/1.1" 200
+11:32:38 - [INFO] - 127.0.0.1:65392 - "GET /dashboard/trades HTTP/1.1" 200
+11:32:38 - [INFO] - 127.0.0.1:65392 - "GET /dashboard/summary HTTP/1.1" 200
+11:33:10 - [INFO] - Shutting down
+11:33:10 - [INFO] - Waiting for application shutdown.
+11:33:10 - [INFO] - Application shutdown complete.
+11:33:10 - [INFO] - Finished server process [10432]

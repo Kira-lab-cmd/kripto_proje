@@ -1,0 +1,42 @@
+{
+  "v1": {
+    "buy": 1,
+    "hold": 3,
+    "total": 4
+  },
+  "v2": {
+    "buy": 4,
+    "hold": 0,
+    "total": 4
+  },
+  "scenarios": [
+    {
+      "name": "Uptrend + Normal Vol",
+      "v1_signal": "BUY",
+      "v2_signal": "BUY",
+      "v1_score": 7.0,
+      "v2_score": 7.0
+    },
+    {
+      "name": "Uptrend + High Vol",
+      "v1_signal": "HOLD",
+      "v2_signal": "BUY",
+      "v1_score": 5.0,
+      "v2_score": 5.0
+    },
+    {
+      "name": "Sideways + Normal Vol",
+      "v1_signal": "HOLD",
+      "v2_signal": "BUY",
+      "v1_score": 4.0,
+      "v2_score": 4.0
+    },
+    {
+      "name": "Downtrend + Normal Vol",
+      "v1_signal": "HOLD",
+      "v2_signal": "BUY",
+      "v1_score": 3.0,
+      "v2_score": 3.0
+    }
+  ]
+}
