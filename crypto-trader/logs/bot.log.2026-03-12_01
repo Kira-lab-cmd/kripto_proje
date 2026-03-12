@@ -1,0 +1,187 @@
+01:40:17 - [INFO] - watchdog_tick open_positions=2
+01:41:25 - [INFO] - watchdog_tick open_positions=2
+01:41:46 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+01:41:47 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70355.10000000 ema_fast=70550.81276994 tolerance_mult=1.001500 tolerance_ceiling=70656.63898910 below_ema_fast=true
+01:41:47 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.64), reclaim yok, below EMA fast, SYM=BTC/USDT
+01:41:49 - [WARNING] - Yetersiz Bakiye (USDT): 5.06
+01:41:49 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2063.46000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+01:41:49 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2063.46000000 risk_multiplier=1.0000 corr_factor=1.0000
+01:41:49 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+01:41:51 - [INFO] - 🧾 ROUND#108 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+01:41:51 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+01:41:51 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+01:42:32 - [INFO] - watchdog_tick open_positions=2
+01:43:41 - [INFO] - watchdog_tick open_positions=2
+01:44:48 - [INFO] - watchdog_tick open_positions=2
+01:45:56 - [INFO] - watchdog_tick open_positions=2
+01:46:51 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+01:46:51 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70368.06000000 ema_fast=70533.48443376 tolerance_mult=1.001500 tolerance_ceiling=70639.28466041 below_ema_fast=true
+01:46:51 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.62), reclaim ok (0.02), below EMA fast, SYM=BTC/USDT
+01:46:52 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=70368.06000000 risk_multiplier=1.0000 corr_factor=1.0000
+01:46:52 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+01:46:52 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 70368.06, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 70368.06, 'stop_loss': 70129.96714286, 'take_profit': 70725.19928571, 'reason': '1H bias=UP, ATR% ok (0.28), pullback ok (0.62), reclaim ok (0.02), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 198.41071428571325, 'atr_pct': 0.002819613249046702, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 70533.48443376}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 996.102108392622, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+01:46:53 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2063.42000000 ema_fast=2067.77231227 tolerance_mult=1.001500 tolerance_ceiling=2070.87397074 below_ema_fast=true
+01:46:53 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.79), reclaim yok, below EMA fast, SYM=ETH/USDT
+01:46:56 - [INFO] - 🧾 ROUND#109 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+01:46:56 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.62), reclaim ok (0.02), below EMA fast, SYM=BTC/USDT
+01:46:56 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+01:47:03 - [INFO] - watchdog_tick open_positions=2
+01:48:12 - [INFO] - watchdog_tick open_positions=2
+01:49:20 - [INFO] - watchdog_tick open_positions=2
+01:50:28 - [INFO] - watchdog_tick open_positions=2
+01:51:36 - [INFO] - watchdog_tick open_positions=2
+01:51:56 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+01:51:56 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70455.66000000 ema_fast=70541.82729090 tolerance_mult=1.001500 tolerance_ceiling=70647.64003184 below_ema_fast=true
+01:51:56 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.50), reclaim ok (0.14), below EMA fast, SYM=BTC/USDT
+01:51:57 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=70455.66000000 risk_multiplier=1.0000 corr_factor=1.0000
+01:51:57 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+01:51:58 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2064.10000000 ema_fast=2067.83707418 tolerance_mult=1.001500 tolerance_ceiling=2070.93882979 below_ema_fast=true
+01:51:58 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.75), reclaim yok, below EMA fast, SYM=ETH/USDT
+01:52:01 - [INFO] - 🧾 ROUND#110 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+01:52:01 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.50), reclaim ok (0.14), below EMA fast, SYM=BTC/USDT
+01:52:01 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+01:52:43 - [INFO] - watchdog_tick open_positions=2
+01:53:51 - [INFO] - watchdog_tick open_positions=2
+01:54:59 - [INFO] - watchdog_tick open_positions=2
+01:56:07 - [INFO] - watchdog_tick open_positions=2
+01:57:01 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+01:57:01 - [INFO] - trend_bias_computed
+01:57:02 - [WARNING] - Yetersiz Bakiye (USDT): 5.06
+01:57:02 - [INFO] - analysis trade_rejected symbol=BTC/USDT decision=BUY price=70289.71000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+01:57:02 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=trader_rejected price=70289.71000000 risk_multiplier=1.0000 corr_factor=1.0000
+01:57:02 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+01:57:02 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 70289.71, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68883.9158, 'take_profit': 71695.50420000001, 'current_price': 70289.71, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0002845366697344462, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 70350.0, 'quantity': 0.00028429282160625445, 'action': 'BUY'}}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 994.7666119926221, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+01:57:04 - [INFO] - trend_bias_computed
+01:57:05 - [WARNING] - Yetersiz Bakiye (USDT): 5.06
+01:57:05 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2060.53000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+01:57:05 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2060.53000000 risk_multiplier=1.0000 corr_factor=1.0000
+01:57:05 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+01:57:05 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2060.53, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 2019.3194, 'take_profit': 2101.7406, 'current_price': 2060.53, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.009706240627411393, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2064.0, 'quantity': 0.009689922480620155, 'action': 'BUY'}}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 994.567321492622, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+01:57:06 - [INFO] - 🧾 ROUND#111 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+01:57:06 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+01:57:06 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+01:57:14 - [INFO] - watchdog_tick open_positions=2
+01:58:22 - [INFO] - watchdog_tick open_positions=2
+01:59:30 - [INFO] - watchdog_tick open_positions=2
+02:00:38 - [INFO] - watchdog_tick open_positions=2
+02:01:46 - [INFO] - watchdog_tick open_positions=2
+02:02:06 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:02:07 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70446.90000000 ema_fast=70525.66482739 tolerance_mult=1.001500 tolerance_ceiling=70631.45332463 below_ema_fast=true
+02:02:07 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.51), reclaim ok (0.10), below EMA fast, SYM=BTC/USDT
+02:02:07 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=70446.90000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:02:07 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:02:07 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 70446.9, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 70446.9, 'stop_loss': 70207.93971429, 'take_profit': 70805.34042857, 'reason': '1H bias=UP, ATR% ok (0.28), pullback ok (0.51), reclaim ok (0.10), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 199.13357142857006, 'atr_pct': 0.0028267187261408248, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 70525.66482739}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 996.540200692622, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+02:02:09 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2062.99000000 ema_fast=2067.17381541 tolerance_mult=1.001500 tolerance_ceiling=2070.27457613 below_ema_fast=true
+02:02:09 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT
+02:02:10 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2062.99000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:02:10 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:02:10 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2062.99, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2062.99, 'stop_loss': 2054.58314286, 'take_profit': 2075.60028571, 'reason': '1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 7.005714285714248, 'atr_pct': 0.0033959031724410923, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2067.17381541}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 996.5687138926219, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+02:02:11 - [INFO] - 🧾 ROUND#112 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:02:11 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.51), reclaim ok (0.10), below EMA fast, SYM=BTC/USDT
+02:02:11 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT
+02:02:53 - [INFO] - watchdog_tick open_positions=2
+02:04:01 - [INFO] - watchdog_tick open_positions=2
+02:05:09 - [INFO] - watchdog_tick open_positions=2
+02:06:17 - [INFO] - watchdog_tick open_positions=2
+02:07:11 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:07:12 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70478.42000000 ema_fast=70528.66673215 tolerance_mult=1.001500 tolerance_ceiling=70634.45973225 below_ema_fast=true
+02:07:12 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.47), reclaim ok (0.15), below EMA fast, SYM=BTC/USDT
+02:07:12 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=70478.42000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:07:12 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:07:14 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2063.60000000 ema_fast=2067.23191064 tolerance_mult=1.001500 tolerance_ceiling=2070.33275851 below_ema_fast=true
+02:07:14 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.78), reclaim ok (0.09), below EMA fast, SYM=ETH/USDT
+02:07:15 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2063.60000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:07:15 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:07:16 - [INFO] - 🧾 ROUND#113 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:07:16 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.47), reclaim ok (0.15), below EMA fast, SYM=BTC/USDT
+02:07:16 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.78), reclaim ok (0.09), below EMA fast, SYM=ETH/USDT
+02:07:24 - [INFO] - watchdog_tick open_positions=2
+02:08:33 - [INFO] - watchdog_tick open_positions=2
+02:09:41 - [INFO] - watchdog_tick open_positions=2
+02:10:49 - [INFO] - watchdog_tick open_positions=2
+02:11:57 - [INFO] - watchdog_tick open_positions=2
+02:12:16 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:12:17 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70469.21000000 ema_fast=70527.78958930 tolerance_mult=1.001500 tolerance_ceiling=70633.58127368 below_ema_fast=true
+02:12:17 - [INFO] - fallback_override strategy=snapback symbol=BTC/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.48), reclaim ok (0.14), below EMA fast, SYM=BTC/USDT
+02:12:17 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=position_already_open price=70469.21000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:12:17 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:12:17 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 70469.21, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 70469.21, 'stop_loss': 70228.19514286, 'take_profit': 70830.73228571, 'reason': '1H bias=UP, ATR% ok (0.29), pullback ok (0.48), reclaim ok (0.14), below EMA fast, SYM=BTC/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 200.845714285713, 'atr_pct': 0.0028501201345341176, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 70527.7895893}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 996.6879128926221, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+02:12:19 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2062.91000000 ema_fast=2067.16619636 tolerance_mult=1.001500 tolerance_ceiling=2070.26694565 below_ema_fast=true
+02:12:19 - [INFO] - fallback_override strategy=snapback symbol=ETH/USDT signal=BUY score=5.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT
+02:12:20 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=position_already_open price=2062.91000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:12:20 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=snapback blocked_reason=position_already_open ok=true
+02:12:20 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2062.91, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'current_price': 2062.91, 'stop_loss': 2054.40371429, 'take_profit': 2075.66942857, 'reason': '1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT', 'is_uptrend': True, 'ema200': None, 'atr': 7.08857142857138, 'atr_pct': 0.0034362000419656605, 'vol_ratio': None, 'regime': 'SNAPBACK_READY', 'regime_conf': 1.0, 'adx': None, 'er': None, 'dir_1h': 'UP', 'base_thresholds': {'buy': 4.0, 'sell': -999.0}, 'threshold_bias': {'model': 'snapback_v1'}, 'effective_thresholds': {'buy': 4.0, 'sell': -999.0}, 'gate_status': {'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True}, 'hold_fail_reasons': [], 'strategy_name': 'snapback', 'ema_fast': 2067.16619636}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 996.721675092622, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'position_already_open'}
+02:12:21 - [INFO] - 🧾 ROUND#114 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:12:21 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.48), reclaim ok (0.14), below EMA fast, SYM=BTC/USDT
+02:12:21 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=4.0 gap=-1.0 corr=1.0 regime=SNAPBACK_READY adx=None er=None volx=None strategy=snapback trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=position_already_open gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': True} hold_fails=[] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.81), reclaim ok (0.06), below EMA fast, SYM=ETH/USDT
+02:13:04 - [INFO] - watchdog_tick open_positions=2
+02:14:12 - [INFO] - watchdog_tick open_positions=2
+02:15:20 - [INFO] - watchdog_tick open_positions=2
+02:16:28 - [INFO] - watchdog_tick open_positions=2
+02:17:21 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:17:22 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70386.48000000 ema_fast=70513.44142001 tolerance_mult=1.001500 tolerance_ceiling=70619.21158214 below_ema_fast=true
+02:17:22 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=UP, ATR% ok (0.28), pullback yok, reclaim yok, below EMA fast, SYM=BTC/USDT
+02:17:25 - [WARNING] - Yetersiz Bakiye (USDT): 5.06
+02:17:25 - [INFO] - analysis trade_rejected symbol=ETH/USDT decision=BUY price=2059.39000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+02:17:25 - [INFO] - analysis trade_blocked symbol=ETH/USDT decision=BUY blocked_reason=trader_rejected price=2059.39000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:17:25 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+02:17:25 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'ETH/USDT', 'price': 2059.39, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 2018.2022, 'take_profit': 2100.5778, 'current_price': 2059.39, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.009711613633163219, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2060.0, 'quantity': 0.009708737864077669, 'action': 'BUY'}}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 995.2044318926219, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+02:17:26 - [INFO] - 🧾 ROUND#115 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:17:26 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+02:17:26 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:17:35 - [INFO] - watchdog_tick open_positions=2
+02:18:43 - [INFO] - watchdog_tick open_positions=2
+02:19:51 - [INFO] - watchdog_tick open_positions=2
+02:20:59 - [INFO] - watchdog_tick open_positions=2
+02:22:07 - [INFO] - watchdog_tick open_positions=2
+02:22:26 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:22:27 - [WARNING] - Yetersiz Bakiye (USDT): 5.06
+02:22:27 - [INFO] - analysis trade_rejected symbol=BTC/USDT decision=BUY price=70337.48000000 risk_multiplier=1.0000 reason=AUTO_SIGNAL
+02:22:27 - [INFO] - analysis trade_blocked symbol=BTC/USDT decision=BUY blocked_reason=trader_rejected price=70337.48000000 risk_multiplier=1.0000 corr_factor=1.0000
+02:22:28 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY(blocked_exec) strategy=grid_v1 blocked_reason=trader_rejected ok=true
+02:22:28 - [INFO] - 📢 RAPOR(blocked): {'symbol': 'BTC/USDT', 'price': 70337.48, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68930.7304, 'take_profit': 71744.22959999999, 'current_price': 70337.48, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.00028434342543975135, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 70350.0, 'quantity': 0.00028429282160625445, 'action': 'BUY'}}, 'paper_usdt': 5.061461192622371, 'paper_equity_usdt': 994.855545092622, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': None, 'blocked_reason': 'trader_rejected'}
+02:22:29 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2059.16000000 ema_fast=2066.31667199 tolerance_mult=1.001500 tolerance_ceiling=2069.41614699 below_ema_fast=true
+02:22:29 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.46), reclaim yok, below EMA fast, SYM=ETH/USDT
+02:22:32 - [INFO] - 🧾 ROUND#116 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:22:32 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY(blocked_exec) score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=True exec_reason=trader_rejected gate_status={} hold_fails=[] reason=
+02:22:32 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:23:14 - [INFO] - watchdog_tick open_positions=2
+02:24:23 - [INFO] - watchdog_tick open_positions=2
+02:25:31 - [INFO] - watchdog_tick open_positions=2
+02:26:39 - [INFO] - watchdog_tick open_positions=2
+02:27:32 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:27:32 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70328.57000000 ema_fast=70507.92618191 tolerance_mult=1.001500 tolerance_ceiling=70613.68807119 below_ema_fast=true
+02:27:32 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.29), pullback ok (0.23), reclaim yok, below EMA fast, SYM=BTC/USDT
+02:27:34 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2058.70000000 ema_fast=2066.27286246 tolerance_mult=1.001500 tolerance_ceiling=2069.37227176 below_ema_fast=true
+02:27:34 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.34), pullback ok (0.48), reclaim yok, below EMA fast, SYM=ETH/USDT
+02:27:36 - [INFO] - 🧾 ROUND#117 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:27:36 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:27:36 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:27:47 - [INFO] - watchdog_tick open_positions=2
+02:28:56 - [INFO] - watchdog_tick open_positions=2
+02:30:04 - [INFO] - watchdog_tick open_positions=2
+02:31:12 - [INFO] - watchdog_tick open_positions=2
+02:32:20 - [INFO] - watchdog_tick open_positions=2
+02:32:36 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:32:36 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70297.29000000 ema_fast=70491.18736181 tolerance_mult=1.001500 tolerance_ceiling=70596.92414286 below_ema_fast=true
+02:32:36 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.28), pullback ok (0.23), reclaim yok, below EMA fast, SYM=BTC/USDT
+02:32:39 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2057.38000000 ema_fast=2065.48279393 tolerance_mult=1.001500 tolerance_ceiling=2068.58101812 below_ema_fast=true
+02:32:39 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.33), pullback ok (0.33), reclaim yok, below EMA fast, SYM=ETH/USDT
+02:32:41 - [INFO] - 🧾 ROUND#118 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:32:41 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:32:41 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:33:28 - [INFO] - watchdog_tick open_positions=2
+02:34:36 - [INFO] - watchdog_tick open_positions=2
+02:35:44 - [INFO] - watchdog_tick open_positions=2
+02:36:52 - [INFO] - watchdog_tick open_positions=2
+02:37:41 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+02:37:42 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70363.46000000 ema_fast=70497.48926658 tolerance_mult=1.001500 tolerance_ceiling=70603.23550048 below_ema_fast=true
+02:37:42 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=3.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': False, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['pullback_ok', 'reclaim_ok'] reason=1H bias=UP, ATR% ok (0.28), pullback yok, reclaim yok, below EMA fast, SYM=BTC/USDT
+02:37:45 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2058.13000000 ema_fast=2065.55422250 tolerance_mult=1.001500 tolerance_ceiling=2068.65255384 below_ema_fast=true
+02:37:45 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': False, 'below_ema_fast': True} hold_fails=['reclaim_ok'] reason=1H bias=UP, ATR% ok (0.33), pullback ok (0.30), reclaim yok, below EMA fast, SYM=ETH/USDT
+02:37:47 - [INFO] - 🧾 ROUND#119 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+02:37:47 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:37:47 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+02:38:00 - [INFO] - watchdog_tick open_positions=2
+02:39:08 - [INFO] - watchdog_tick open_positions=2
+02:40:16 - [INFO] - watchdog_tick open_positions=2

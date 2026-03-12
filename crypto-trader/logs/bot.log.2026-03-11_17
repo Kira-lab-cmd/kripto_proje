@@ -1,0 +1,156 @@
+18:20:19 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:20:19 - [INFO] - 127.0.0.1:62088 - "GET /dashboard/summary HTTP/1.1" 200
+18:20:19 - [INFO] - 127.0.0.1:62150 - "GET /dashboard/trades HTTP/1.1" 200
+18:20:20 - [INFO] - 127.0.0.1:62149 - "GET /dashboard/positions HTTP/1.1" 200
+18:20:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:20:39 - [INFO] - 127.0.0.1:62170 - "GET /dashboard/summary HTTP/1.1" 200
+18:20:39 - [INFO] - 127.0.0.1:62168 - "GET /dashboard/positions HTTP/1.1" 200
+18:20:39 - [INFO] - 127.0.0.1:62169 - "GET /dashboard/trades HTTP/1.1" 200
+18:20:48 - [INFO] - watchdog_tick open_positions=2
+18:21:16 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:16 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:16 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:16 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:19 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:19 - [INFO] - 127.0.0.1:62182 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:19 - [INFO] - 127.0.0.1:62181 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:20 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:24 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:25 - [INFO] - 127.0.0.1:62187 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:25 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:25 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:29 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:29 - [INFO] - 127.0.0.1:62187 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:29 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:30 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:34 - [INFO] - 127.0.0.1:62187 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:34 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:34 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:35 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:39 - [INFO] - 127.0.0.1:62187 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:39 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:40 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:44 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:44 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:44 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:45 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:49 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:49 - [INFO] - 127.0.0.1:62193 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:49 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:50 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:52 - [INFO] - watchdog_tick open_positions=2
+18:21:54 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:54 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:21:54 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:55 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:21:59 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:21:59 - [INFO] - 127.0.0.1:62195 - "GET /dashboard/summary HTTP/1.1" 200
+18:21:59 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:00 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:04 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:22:04 - [INFO] - 127.0.0.1:62195 - "GET /dashboard/summary HTTP/1.1" 200
+18:22:04 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:05 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:09 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:22:09 - [INFO] - 127.0.0.1:62195 - "GET /dashboard/summary HTTP/1.1" 200
+18:22:09 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:10 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:14 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:22:14 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:14 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/summary HTTP/1.1" 200
+18:22:15 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:19 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:22:19 - [INFO] - 127.0.0.1:62186 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:19 - [INFO] - 127.0.0.1:62197 - "GET /dashboard/summary HTTP/1.1" 200
+18:22:20 - [INFO] - 127.0.0.1:62171 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:22:39 - [INFO] - 127.0.0.1:62203 - "GET /dashboard/positions HTTP/1.1" 200
+18:22:39 - [INFO] - 127.0.0.1:62204 - "GET /dashboard/trades HTTP/1.1" 200
+18:22:39 - [INFO] - 127.0.0.1:62205 - "GET /dashboard/summary HTTP/1.1" 200
+18:22:55 - [INFO] - watchdog_tick open_positions=2
+18:23:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:23:39 - [INFO] - 127.0.0.1:62212 - "GET /dashboard/summary HTTP/1.1" 200
+18:23:39 - [INFO] - 127.0.0.1:62211 - "GET /dashboard/trades HTTP/1.1" 200
+18:23:39 - [INFO] - 127.0.0.1:62206 - "GET /dashboard/positions HTTP/1.1" 200
+18:24:02 - [INFO] - watchdog_tick open_positions=2
+18:24:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:24:39 - [INFO] - 127.0.0.1:62224 - "GET /dashboard/summary HTTP/1.1" 200
+18:24:39 - [INFO] - 127.0.0.1:62223 - "GET /dashboard/trades HTTP/1.1" 200
+18:24:39 - [INFO] - 127.0.0.1:62222 - "GET /dashboard/positions HTTP/1.1" 200
+18:25:08 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+18:25:08 - [INFO] - snapback_gate_probe symbol=BTC/USDT price=70425.22000000 ema_fast=70054.31170133 tolerance_mult=1.001500 tolerance_ceiling=70159.39316888 below_ema_fast=false
+18:25:08 - [INFO] - fallback_evaluated strategy=snapback symbol=BTC/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': False} hold_fails=['below_ema_fast'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.79), pullback ok (0.59), reclaim ok (0.40), EMA fast tolerance fail, SYM=BTC/USDT
+18:25:09 - [INFO] - watchdog_tick open_positions=2
+18:25:11 - [INFO] - snapback_gate_probe symbol=ETH/USDT price=2057.21000000 ema_fast=2043.61862732 tolerance_mult=1.001500 tolerance_ceiling=2046.68405526 below_ema_fast=false
+18:25:11 - [INFO] - fallback_evaluated strategy=snapback symbol=ETH/USDT signal=HOLD score=4.00 gate_status={'bias_not_down': True, 'atr_ok': True, 'pullback_ok': True, 'reclaim_ok': True, 'below_ema_fast': False} hold_fails=['below_ema_fast'] reason=1H bias=NEUTRAL (allowed), ATR% ok (0.87), pullback ok (0.74), reclaim ok (0.55), EMA fast tolerance fail, SYM=ETH/USDT
+18:25:12 - [INFO] - 🧾 ROUND#22 summary: BUY=0 SELL=0 HOLD=2 | risk_multiplier=1.00 | trade_blocked=False reason=None
+18:25:12 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+18:25:12 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+18:25:38 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:25:38 - [INFO] - 127.0.0.1:62225 - "GET /dashboard/positions HTTP/1.1" 200
+18:25:38 - [INFO] - 127.0.0.1:62225 - "GET /dashboard/trades HTTP/1.1" 200
+18:25:38 - [INFO] - 127.0.0.1:62225 - "GET /dashboard/summary HTTP/1.1" 200
+18:26:16 - [INFO] - watchdog_tick open_positions=2
+18:26:39 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:26:39 - [INFO] - 127.0.0.1:62230 - "GET /dashboard/positions HTTP/1.1" 200
+18:26:39 - [INFO] - 127.0.0.1:62234 - "GET /dashboard/summary HTTP/1.1" 200
+18:26:39 - [INFO] - 127.0.0.1:62231 - "GET /dashboard/trades HTTP/1.1" 200
+18:27:24 - [INFO] - watchdog_tick open_positions=2
+18:27:28 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:27:28 - [INFO] - 127.0.0.1:62242 - "GET /dashboard/summary HTTP/1.1" 200
+18:27:28 - [INFO] - 127.0.0.1:62241 - "GET /dashboard/trades HTTP/1.1" 200
+18:27:29 - [INFO] - 127.0.0.1:62240 - "GET /dashboard/positions HTTP/1.1" 200
+18:27:29 - [INFO] - dashboard_positions db_path=C:\Users\murat\Desktop\kripto_proje\crypto-trader\backend\trading_bot.db row_count=2
+18:27:29 - [INFO] - 127.0.0.1:62240 - "GET /dashboard/positions HTTP/1.1" 200
+18:27:29 - [INFO] - 127.0.0.1:62242 - "GET /dashboard/summary HTTP/1.1" 200
+18:27:29 - [INFO] - 127.0.0.1:62241 - "GET /dashboard/trades HTTP/1.1" 200
+18:28:31 - [INFO] - watchdog_tick open_positions=2
+18:29:39 - [INFO] - watchdog_tick open_positions=2
+18:30:12 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+18:30:13 - [INFO] - trend_bias_computed
+18:30:13 - [INFO] - 🔧 GRID POSITION SIZING: capital=$20.00 price=$70114.34 qty=0.00028525 BTC strategy=grid_v1
+18:30:13 - [INFO] - ⚡ Trade: BUY 0.00028000 BTC/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+18:30:13 - [INFO] - 🧪 [PAPER] BUY 0.00028 BTC/USDT @ mid=70114.340000 exec=70133.123470 fee=0.019637 slip_bps=2.679 id=po_24a90344fbfbbb55a803aeca
+18:30:13 - [INFO] - trade order_filled symbol=BTC/USDT signal=BUY order_id=po_24a90344fbfbbb55a803aeca exec_amount=0.00028000 exec_price=70133.12346969 cost=19.63727457
+18:30:13 - [INFO] - trade position_updated symbol=BTC/USDT signal=BUY exec_amount=0.00028000 exec_price=70133.12346969 fee=0.01963727 realized_pnl=0.00000000 gross_pnl=None total_fees=0.01963727457151211 net_pnl=None
+18:30:13 - [INFO] - trade audit_persisted trade_id=52 symbol=BTC/USDT side=BUY realized_pnl=0.00000000 fee=0.01963727 total_fees=0.01963727457151211 gross_pnl=None net_pnl=None
+18:30:13 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+18:30:13 - [INFO] - 📢 RAPOR: {'symbol': 'BTC/USDT', 'price': 70114.34, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68712.0532, 'take_profit': 71516.6268, 'current_price': 70114.34, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.00028524835290469824, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 70200.0, 'quantity': 0.0002849002849002849, 'action': 'BUY'}}, 'paper_usdt': 539.8732196198113, 'paper_equity_usdt': 994.107084519811, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_24a90344fbfbbb55a803aeca', 'clientOrderId': '24a90344fbfbbb55a803aeca900970acc9945202860479deb6de6833e8036c94', 'symbol': 'BTC/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.00028, 'filled': 0.00028, 'price': 70133.12346968612, 'average': 70133.12346968612, 'cost': 19.637274571512112, 'fee': 0.01963727457151211, 'status': 'closed', 'timestamp': 1773243013592, 'info': {'mode': 'paper', 'mid_price': 70114.34, 'slippage_bps': 2.6789768949015076, 'reason': 'AUTO_SIGNAL'}}}
+18:30:15 - [INFO] - trend_bias_computed
+18:30:16 - [INFO] - 🔧 GRID POSITION SIZING: capital=$20.00 price=$2046.12 qty=0.00977460 ETH strategy=grid_v1
+18:30:16 - [INFO] - ⚡ Trade: BUY 0.00970000 ETH/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+18:30:16 - [INFO] - 🧪 [PAPER] BUY 0.0097 ETH/USDT @ mid=2046.120000 exec=2046.622424 fee=0.019852 slip_bps=2.455 id=po_e924648b0347eebd169585d2
+18:30:16 - [INFO] - trade order_filled symbol=ETH/USDT signal=BUY order_id=po_e924648b0347eebd169585d2 exec_amount=0.00970000 exec_price=2046.62242421 cost=19.85223751
+18:30:16 - [INFO] - trade position_updated symbol=ETH/USDT signal=BUY exec_amount=0.00970000 exec_price=2046.62242421 fee=0.01985224 realized_pnl=0.00000000 gross_pnl=None total_fees=0.019852237514847115 net_pnl=None
+18:30:16 - [INFO] - trade audit_persisted trade_id=53 symbol=ETH/USDT side=BUY realized_pnl=0.00000000 fee=0.01985224 total_fees=0.019852237514847115 gross_pnl=None net_pnl=None
+18:30:16 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+18:30:16 - [INFO] - 📢 RAPOR: {'symbol': 'ETH/USDT', 'price': 2046.12, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 2005.1976, 'take_profit': 2087.0424, 'current_price': 2046.12, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.009774597775301546, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2048.0, 'quantity': 0.009765625, 'action': 'BUY'}}, 'paper_usdt': 520.2163077737276, 'paper_equity_usdt': 993.9706877737274, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_e924648b0347eebd169585d2', 'clientOrderId': 'e924648b0347eebd169585d29b2518a35884e76fde8f949bd211958d18a57245', 'symbol': 'ETH/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.0097, 'filled': 0.0097, 'price': 2046.6224242110427, 'average': 2046.6224242110427, 'cost': 19.852237514847115, 'fee': 0.019852237514847115, 'status': 'closed', 'timestamp': 1773243016384, 'info': {'mode': 'paper', 'mid_price': 2046.12, 'slippage_bps': 2.4554972877597403, 'reason': 'AUTO_SIGNAL'}}}
+18:30:17 - [INFO] - 🧾 ROUND#23 summary: BUY=2 SELL=0 HOLD=0 | risk_multiplier=1.00 | trade_blocked=False reason=None
+18:30:17 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+18:30:17 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+18:30:46 - [INFO] - watchdog_tick open_positions=2
+18:31:54 - [INFO] - watchdog_tick open_positions=2
+18:33:01 - [INFO] - watchdog_tick open_positions=2
+18:34:09 - [INFO] - watchdog_tick open_positions=2
+18:35:17 - [INFO] - watchdog_tick open_positions=2
+18:35:17 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT']
+18:35:18 - [INFO] - 🔧 GRID POSITION SIZING: capital=$20.00 price=$70020.71 qty=0.00028563 BTC strategy=grid_v1
+18:35:18 - [INFO] - ⚡ Trade: BUY 0.00028000 BTC/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+18:35:18 - [INFO] - 🧪 [PAPER] BUY 0.00028 BTC/USDT @ mid=70020.710000 exec=70035.631955 fee=0.019610 slip_bps=2.131 id=po_6565096bf574b9b973454ee8
+18:35:18 - [INFO] - trade order_filled symbol=BTC/USDT signal=BUY order_id=po_6565096bf574b9b973454ee8 exec_amount=0.00028000 exec_price=70035.63195474 cost=19.60997695
+18:35:18 - [INFO] - trade position_updated symbol=BTC/USDT signal=BUY exec_amount=0.00028000 exec_price=70035.63195474 fee=0.01960998 realized_pnl=0.00000000 gross_pnl=None total_fees=0.019609976947327436 net_pnl=None
+18:35:18 - [INFO] - trade audit_persisted trade_id=54 symbol=BTC/USDT side=BUY realized_pnl=0.00000000 fee=0.01960998 total_fees=0.019609976947327436 gross_pnl=None net_pnl=None
+18:35:18 - [INFO] - signal_audit_write symbol=BTC/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+18:35:18 - [INFO] - 📢 RAPOR: {'symbol': 'BTC/USDT', 'price': 70020.71, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 68620.2958, 'take_profit': 71421.1242, 'current_price': 70020.71, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.0002856297801036293, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 70050.0, 'quantity': 0.00028551034975017847, 'action': 'BUY'}}, 'paper_usdt': 500.3442180213657, 'paper_equity_usdt': 993.0906470213655, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_6565096bf574b9b973454ee8', 'clientOrderId': '6565096bf574b9b973454ee85c70005ba8a25b65f626d9c188553c091ce639e3', 'symbol': 'BTC/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.00028, 'filled': 0.00028, 'price': 70035.63195474085, 'average': 70035.63195474085, 'cost': 19.609976947327436, 'fee': 0.019609976947327436, 'status': 'closed', 'timestamp': 1773243318265, 'info': {'mode': 'paper', 'mid_price': 70020.71, 'slippage_bps': 2.1310773256707014, 'reason': 'AUTO_SIGNAL'}}}
+18:35:20 - [INFO] - 🔧 GRID POSITION SIZING: capital=$20.00 price=$2041.47 qty=0.00979686 ETH strategy=grid_v1
+18:35:20 - [INFO] - ⚡ Trade: BUY 0.00970000 ETH/USDT | risk_x=1.000 | reason=AUTO_SIGNAL
+18:35:20 - [INFO] - 🧪 [PAPER] BUY 0.0097 ETH/USDT @ mid=2041.470000 exec=2041.754975 fee=0.019805 slip_bps=1.396 id=po_f7e01ce33655e8db3760219b
+18:35:20 - [INFO] - trade order_filled symbol=ETH/USDT signal=BUY order_id=po_f7e01ce33655e8db3760219b exec_amount=0.00970000 exec_price=2041.75497502 cost=19.80502326
+18:35:20 - [INFO] - trade position_updated symbol=ETH/USDT signal=BUY exec_amount=0.00970000 exec_price=2041.75497502 fee=0.01980502 realized_pnl=0.00000000 gross_pnl=None total_fees=0.019805023257733218 net_pnl=None
+18:35:20 - [INFO] - trade audit_persisted trade_id=55 symbol=ETH/USDT side=BUY realized_pnl=0.00000000 fee=0.01980502 total_fees=0.019805023257733218 gross_pnl=None net_pnl=None
+18:35:20 - [INFO] - signal_audit_write symbol=ETH/USDT decision=BUY strategy=grid_v1 blocked_reason=None ok=true
+18:35:20 - [INFO] - 📢 RAPOR: {'symbol': 'ETH/USDT', 'price': 2041.47, 'sentiment': 0.0, 'decision': 'BUY', 'risk_multiplier': 1.0, 'details': {'signal': 'BUY', 'score': 5.0, 'stop_loss': 2000.6406, 'take_profit': 2082.2994, 'current_price': 2041.47, 'entry_reason': 'grid_cross_down_0', 'quantity': 0.009796862065080554, 'grid_info': {'total_inventory': 0.0, 'total_buy_executions': 0, 'total_sell_executions': 0, 'active_grid_count': 0, 'active_grids': []}, 'strategy_name': 'grid_v1', 'price_in_range': True, 'atr_ok': True, 'volume_ok': True, 'gates_passed': 3, 'all_gates_pass': True, 'crossing_metadata': {'grid_price': 2044.0, 'quantity': 0.009784735812133072, 'action': 'BUY'}}, 'paper_usdt': 480.71463109709094, 'paper_equity_usdt': 993.2128270970907, 'corr_factor': 1.0, 'corr_reason': None, 'trade_result': {'id': 'po_f7e01ce33655e8db3760219b', 'clientOrderId': 'f7e01ce33655e8db3760219b11b75d0f68ae7a1ee15aef89f0e323d1cfd5ccc4', 'symbol': 'ETH/USDT', 'side': 'buy', 'type': 'market', 'amount': 0.0097, 'filled': 0.0097, 'price': 2041.754975024043, 'average': 2041.754975024043, 'cost': 19.805023257733218, 'fee': 0.019805023257733218, 'status': 'closed', 'timestamp': 1773243320737, 'info': {'mode': 'paper', 'mid_price': 2041.47, 'slippage_bps': 1.3959305012714687, 'reason': 'AUTO_SIGNAL'}}}
+18:35:22 - [INFO] - 🧾 ROUND#24 summary: BUY=2 SELL=0 HOLD=0 | risk_multiplier=1.00 | trade_blocked=False reason=None
+18:35:22 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+18:35:22 - [INFO] - 🔎 candidate: ETH/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
