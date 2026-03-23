@@ -1,0 +1,30 @@
+# File: backend/requirements.txt
+fastapi==0.129.0
+uvicorn[standard]==0.32.0
+
+# Exchange
+ccxt==4.5.0
+
+# Config / Env
+python-dotenv==1.0.1
+pydantic==2.11.0
+pydantic-settings==2.10.0
+
+# Data / Math
+pandas==2.2.3
+numpy==2.1.3
+
+# HTTP client (CryptoPanic, etc.)
+requests==2.32.3
+
+# Optional (keep if you use them; otherwise remove to reduce attack surface)
+textblob==0.18.0.post0
+tweepy==4.15.0
+
+# DB (note: you currently use sqlite3 directly; keep SQLAlchemy only if actually used elsewhere)
+sqlalchemy==2.0.36
+
+# Crypto / security utilities (only if used)
+cryptography==43.0.3
+
+aiohttp>=3.9.5
