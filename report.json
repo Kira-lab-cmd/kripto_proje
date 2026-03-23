@@ -1,0 +1,38 @@
+{
+  "summary": {
+    "fold_count": 4,
+    "total_net_pnl": 0.0,
+    "final_equity": 200.0,
+    "avg_win_rate": 0.0,
+    "avg_trade_count": 0.0,
+    "avg_max_dd_pct": 0.0
+  },
+  "stability": {
+    "std_test_net_pnl": 0.0,
+    "worst_fold_net_pnl": 0.0,
+    "best_fold_net_pnl": 0.0,
+    "worst_fold_max_dd": 0.0
+  },
+  "best_fold": {
+    "fold": 0,
+    "test_start": "2025-11-15",
+    "test_end": "2025-11-22",
+    "net_pnl": 0.0,
+    "max_dd_pct": 0.0
+  },
+  "worst_fold": {
+    "fold": 0,
+    "test_start": "2025-11-15",
+    "test_end": "2025-11-22",
+    "net_pnl": 0.0,
+    "max_dd_pct": 0.0
+  },
+  "param_frequency": {
+    "(buy=2.5 sell=-2.5 sl=2.0 tp=3.0)": 4
+  },
+  "execution_stats": {
+    "avg_entry_slippage_bps": null,
+    "avg_exit_slippage_bps": null,
+    "avg_fee_bps": null
+  }
+}

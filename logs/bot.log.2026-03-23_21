@@ -1,0 +1,326 @@
+21:07:51 - [INFO] - grid_buy_blocked_inventory_limit sym=NEAR/USDT net_unsold=3 max=3 (mem_levels=1 hist_buys=5 hist_sells=2)
+21:07:52 - [INFO] - 🧾 ROUND#152 summary: BUY=1 SELL=0 HOLD=3 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:07:52 - [INFO] - 🔎 candidate: BTC/USDT decision=BUY score=5.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.04188993771030414 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=
+21:07:52 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.934001986267457 er=0.00032509752925848366 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:08:52 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:08:54 - [INFO] - watchdog_tick open_positions=4
+21:08:54 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:09:05 - [INFO] - 🧾 ROUND#153 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:09:05 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.06694335083376815 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:09:05 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.934001986267457 er=0.019900497512437398 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:10:05 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:10:09 - [INFO] - watchdog_tick open_positions=4
+21:10:09 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:10:13 - [INFO] - ⏸️ GRID SELL BLOCKED: SOL/USDT grid_pnl=0.013% < min 0.227% (grid_buy=91.06 current=91.07 atr_based=0.227%)
+21:10:16 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.046% < min 0.215% (grid_buy=1.30 current=1.30 atr_based=0.215%)
+21:10:19 - [INFO] - 🧾 ROUND#154 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:10:19 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.06111807518338351 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:10:19 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.934001986267457 er=0.023124272167693093 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:11:19 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:11:22 - [INFO] - ⏸️ GRID SELL BLOCKED: ETH/USDT grid_pnl=0.047% < min 0.227% (grid_buy=2151.90 current=2152.92 atr_based=0.227%)
+21:11:23 - [INFO] - watchdog_tick open_positions=4
+21:11:23 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:11:31 - [INFO] - 🧾 ROUND#155 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:11:31 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.07170192793703631 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:11:31 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.05%
+21:12:31 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:12:37 - [INFO] - watchdog_tick open_positions=4
+21:12:37 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:12:44 - [INFO] - 🧾 ROUND#156 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:12:44 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.06255891372048474 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:12:44 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.934001986267457 er=0.029978228102494918 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:13:44 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:13:49 - [INFO] - ⏸️ GRID SELL BLOCKED: ETH/USDT grid_pnl=0.042% < min 0.227% (grid_buy=2151.90 current=2152.81 atr_based=0.227%)
+21:13:53 - [INFO] - watchdog_tick open_positions=4
+21:13:53 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:13:57 - [INFO] - 🧾 ROUND#157 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:13:57 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.06663153229766916 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:13:57 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.04%
+21:14:57 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:15:07 - [INFO] - grid_buy_blocked_inventory_limit sym=NEAR/USDT net_unsold=3 max=3 (mem_levels=1 hist_buys=5 hist_sells=2)
+21:15:08 - [INFO] - watchdog_tick open_positions=4
+21:15:08 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:15:10 - [INFO] - 🧾 ROUND#158 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:15:10 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.421377134511214 er=0.053029890950888316 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:15:10 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.0034661060287523703 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:16:10 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:16:20 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.046% < min 0.209% (grid_buy=1.30 current=1.30 atr_based=0.209%)
+21:16:23 - [INFO] - 🧾 ROUND#159 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:16:23 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.03809441458060205 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:16:23 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.0016493203662626698 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:16:24 - [INFO] - watchdog_tick open_positions=4
+21:16:24 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:17:23 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:17:37 - [INFO] - 🧾 ROUND#160 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:17:37 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.04572023609532628 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:17:37 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.005049072445679227 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:17:45 - [INFO] - watchdog_tick open_positions=4
+21:17:45 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:18:37 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:18:49 - [INFO] - 🧾 ROUND#161 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:18:49 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.050271300916353824 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:18:49 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.008256050667270089 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:19:00 - [INFO] - watchdog_tick open_positions=4
+21:19:00 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:19:49 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:20:01 - [INFO] - 🧾 ROUND#162 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:20:01 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.039128369267386734 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:20:01 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.00278614885995215 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:20:16 - [INFO] - watchdog_tick open_positions=4
+21:20:16 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:21:01 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:21:12 - [INFO] - 🧾 ROUND#163 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:21:12 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.03887239572708425 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:21:12 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.0006241843046026663 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:21:30 - [INFO] - watchdog_tick open_positions=4
+21:21:30 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:22:12 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:22:24 - [INFO] - 🧾 ROUND#164 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:22:24 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.03536724761386923 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:22:24 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.00011354604292030162 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:22:42 - [INFO] - watchdog_tick open_positions=4
+21:22:42 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:23:24 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:23:33 - [INFO] - grid_buy_blocked_inventory_limit sym=NEAR/USDT net_unsold=3 max=3 (mem_levels=1 hist_buys=5 hist_sells=2)
+21:23:36 - [INFO] - 🧾 ROUND#165 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:23:36 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.490129049184777 er=0.02791358280220684 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:23:36 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.006599356985730041 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:23:57 - [INFO] - watchdog_tick open_positions=4
+21:23:57 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:24:36 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:24:47 - [INFO] - 🧾 ROUND#166 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:24:47 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.52838891218745 er=0.0400565696273832 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:24:47 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.0011937922801434691 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:25:10 - [INFO] - watchdog_tick open_positions=4
+21:25:10 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:25:47 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:25:59 - [INFO] - 🧾 ROUND#167 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:25:59 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.52838891218745 er=0.03583389871954982 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:25:59 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.008891389983117259 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:26:26 - [INFO] - watchdog_tick open_positions=4
+21:26:26 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:26:59 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:27:11 - [INFO] - 🧾 ROUND#168 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:27:11 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.52838891218745 er=0.03461355184609622 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:27:11 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.98424927343436 er=0.011117349803481355 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:27:41 - [INFO] - watchdog_tick open_positions=4
+21:27:41 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:28:11 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:28:23 - [INFO] - 🧾 ROUND#169 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:28:23 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.53635496856371 er=0.023091822672230318 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:28:23 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.997307386675168 er=0.020685053380784423 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:28:55 - [INFO] - watchdog_tick open_positions=4
+21:28:55 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:29:23 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:29:35 - [INFO] - 🧾 ROUND#170 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:29:35 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.53635496856371 er=0.015099650173034709 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:29:35 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=25.997307386675168 er=0.021066088599855405 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:30:11 - [INFO] - watchdog_tick open_positions=4
+21:30:11 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:30:35 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:30:39 - [INFO] - ⏸️ GRID SELL BLOCKED: SOL/USDT grid_pnl=0.138% < min 0.207% (grid_buy=91.30 current=91.43 atr_based=0.207%)
+21:30:42 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.123% < min 0.200% (grid_buy=1.30 current=1.30 atr_based=0.200%)
+21:30:44 - [INFO] - 🧾 ROUND#171 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:30:44 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.923762763366398 er=0.07693376170057524 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:30:44 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=28.20602317136623 er=0.12546553513645706 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:31:20 - [INFO] - watchdog_tick open_positions=4
+21:31:20 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:31:44 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:31:48 - [INFO] - ⏸️ GRID SELL BLOCKED: ETH/USDT grid_pnl=0.014% < min 0.206% (grid_buy=2151.90 current=2152.20 atr_based=0.206%)
+21:31:54 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.092% < min 0.203% (grid_buy=1.31 current=1.31 atr_based=0.203%)
+21:31:57 - [INFO] - 🧾 ROUND#172 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:31:57 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.923762763366398 er=0.05575953197498667 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:31:57 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.01%
+21:32:35 - [INFO] - watchdog_tick open_positions=4
+21:32:35 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:32:57 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:33:03 - [INFO] - grid_buy_blocked_inventory_limit sym=SOL/USDT net_unsold=3 max=3 (mem_levels=2 hist_buys=4 hist_sells=1)
+21:33:09 - [INFO] - 🧾 ROUND#173 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:33:09 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.923762763366398 er=0.05696426227190463 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:33:09 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=28.20602317136623 er=0.10988018544162854 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:33:47 - [INFO] - watchdog_tick open_positions=4
+21:33:47 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:34:09 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:34:11 - [INFO] - ⏸️ GRID SELL BLOCKED: ETH/USDT grid_pnl=0.013% < min 0.208% (grid_buy=2151.90 current=2152.18 atr_based=0.208%)
+21:34:19 - [INFO] - 🧾 ROUND#174 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:34:19 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.729959586304883 er=0.04450742455692322 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:34:19 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.01%
+21:35:05 - [INFO] - watchdog_tick open_positions=4
+21:35:05 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:35:19 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:35:20 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.050% < min 0.200% (grid_buy=71060.01 current=71095.57 atr_based=0.200%)
+21:35:30 - [INFO] - 🧾 ROUND#175 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:35:30 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.05%
+21:35:30 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.895274382301533 er=0.08358805549024417 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:36:25 - [INFO] - watchdog_tick open_positions=4
+21:36:25 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:36:30 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:36:41 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.061% < min 0.208% (grid_buy=1.31 current=1.31 atr_based=0.208%)
+21:36:43 - [INFO] - 🧾 ROUND#176 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:36:43 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.019731057478489307 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:36:43 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.07461816485950946 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:37:41 - [INFO] - watchdog_tick open_positions=4
+21:37:41 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:37:43 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:37:55 - [INFO] - 🧾 ROUND#177 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:37:55 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.024795492262729785 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:37:55 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.08053927315357748 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:38:55 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:38:57 - [INFO] - watchdog_tick open_positions=4
+21:38:57 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:39:06 - [INFO] - grid_buy_blocked_inventory_limit sym=NEAR/USDT net_unsold=3 max=3 (mem_levels=1 hist_buys=5 hist_sells=2)
+21:39:08 - [INFO] - 🧾 ROUND#178 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:39:08 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.035107498170453805 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:39:08 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.08091943239122938 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:40:08 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:40:11 - [INFO] - watchdog_tick open_positions=4
+21:40:11 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:40:15 - [INFO] - grid_buy_blocked_inventory_limit sym=SOL/USDT net_unsold=3 max=3 (mem_levels=2 hist_buys=4 hist_sells=1)
+21:40:22 - [INFO] - 🧾 ROUND#179 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:40:22 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.04847551431827115 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:40:22 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.08735916946853069 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:41:22 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:41:25 - [INFO] - watchdog_tick open_positions=4
+21:41:25 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:41:35 - [INFO] - 🧾 ROUND#180 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:41:35 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.0506145514953524 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:41:35 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.08601390361729684 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:42:35 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:42:37 - [INFO] - watchdog_tick open_positions=4
+21:42:37 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:42:47 - [INFO] - 🧾 ROUND#181 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:42:47 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=23.458888990462288 er=0.051332144740475386 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:42:47 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.08620588061988206 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:43:47 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:43:48 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.021% < min 0.200% (grid_buy=71060.01 current=71075.07 atr_based=0.200%)
+21:43:52 - [INFO] - watchdog_tick open_positions=4
+21:43:52 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:44:00 - [INFO] - 🧾 ROUND#182 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:44:00 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.02%
+21:44:00 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.700238505832395 er=0.06969187024894265 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:45:02 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:45:08 - [INFO] - watchdog_tick open_positions=4
+21:45:08 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:45:11 - [INFO] - ⏸️ GRID SELL BLOCKED: NEAR/USDT grid_pnl=0.137% < min 0.200% (grid_buy=1.31 current=1.31 atr_based=0.200%)
+21:45:15 - [INFO] - 🧾 ROUND#183 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:45:15 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.451964584860743 er=0.11338276122498749 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:45:15 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=28.195960773497955 er=0.18821709423746247 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:46:15 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:46:16 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.011% < min 0.200% (grid_buy=71060.01 current=71068.00 atr_based=0.200%)
+21:46:23 - [INFO] - watchdog_tick open_positions=4
+21:46:23 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:46:30 - [INFO] - 🧾 ROUND#184 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:46:30 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.01%
+21:46:30 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=28.19596077349795 er=0.18287987679671547 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:47:31 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:47:34 - [INFO] - ⏸️ GRID SELL BLOCKED: ETH/USDT grid_pnl=0.137% < min 0.201% (grid_buy=2157.72 current=2160.68 atr_based=0.201%)
+21:47:38 - [INFO] - watchdog_tick open_positions=4
+21:47:38 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:47:45 - [INFO] - 🧾 ROUND#185 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:47:45 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.1133205870386678 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:47:45 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.14%
+21:48:45 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:48:54 - [INFO] - watchdog_tick open_positions=4
+21:48:54 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:48:59 - [INFO] - 🧾 ROUND#186 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:48:59 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.1143903581619191 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:48:59 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.461405366362577 er=0.16288165531163126 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:49:59 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:50:00 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.100% < min 0.200% (grid_buy=71060.01 current=71130.89 atr_based=0.200%)
+21:50:08 - [INFO] - watchdog_tick open_positions=4
+21:50:08 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:50:14 - [INFO] - 🧾 ROUND#187 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:50:14 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.10%
+21:50:14 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.461405366362577 er=0.12450436161776327 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:51:14 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:51:21 - [INFO] - watchdog_tick open_positions=4
+21:51:21 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:51:26 - [INFO] - 🧾 ROUND#188 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:51:26 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.10675171628040879 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:51:26 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.44430245656628 er=0.11931507681097937 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:52:26 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:52:28 - [INFO] - grid_buy_blocked_inventory_limit sym=ETH/USDT net_unsold=3 max=3 (mem_levels=3 hist_buys=5 hist_sells=3)
+21:52:32 - [INFO] - grid_buy_blocked_inventory_limit sym=SOL/USDT net_unsold=3 max=3 (mem_levels=2 hist_buys=4 hist_sells=1)
+21:52:38 - [INFO] - watchdog_tick open_positions=4
+21:52:38 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:52:39 - [INFO] - 🧾 ROUND#189 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:52:39 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.1267944409502257 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:52:39 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.44430245656628 er=0.16295501861081346 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_buy_blocked_inventory_limit(3>=3)
+21:53:39 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:53:51 - [INFO] - 🧾 ROUND#190 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:53:51 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.12656458529111914 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:53:51 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.44430245656628 er=0.16383610076393657 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:53:53 - [INFO] - watchdog_tick open_positions=4
+21:53:53 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:54:51 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:55:06 - [INFO] - watchdog_tick open_positions=4
+21:55:06 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:55:07 - [INFO] - 🧾 ROUND#191 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:55:07 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.12799003453223712 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:55:07 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.44430245656628 er=0.1481781376518223 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:56:08 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:56:16 - [INFO] - grid_buy_blocked_inventory_limit sym=NEAR/USDT net_unsold=3 max=3 (mem_levels=1 hist_buys=5 hist_sells=2)
+21:56:19 - [INFO] - 🧾 ROUND#192 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:56:19 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.1139248589209068 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:56:19 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.337479078206616 er=0.1206760289379293 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:56:20 - [INFO] - watchdog_tick open_positions=4
+21:56:20 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:57:19 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:57:22 - [INFO] - grid_buy_blocked_inventory_limit sym=ETH/USDT net_unsold=3 max=3 (mem_levels=3 hist_buys=5 hist_sells=3)
+21:57:31 - [INFO] - 🧾 ROUND#193 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:57:31 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.12738691022508625 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:57:31 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.337479078206616 er=0.13860407659048898 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_buy_blocked_inventory_limit(3>=3)
+21:57:36 - [INFO] - watchdog_tick open_positions=4
+21:57:36 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:58:31 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:58:42 - [INFO] - 🧾 ROUND#194 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:58:42 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=22.30153786954506 er=0.11781455633100639 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:58:42 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.293006799254307 er=0.11028127446846969 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+21:58:51 - [INFO] - watchdog_tick open_positions=4
+21:58:51 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+21:59:42 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+21:59:42 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.040% < min 0.200% (grid_buy=71060.01 current=71088.53 atr_based=0.200%)
+21:59:52 - [INFO] - 🧾 ROUND#195 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+21:59:52 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.04%
+21:59:52 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=27.12224938423154 er=0.08883638511518031 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:00:09 - [INFO] - watchdog_tick open_positions=4
+22:00:09 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:00:52 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:00:56 - [INFO] - grid_buy_blocked_inventory_limit sym=ETH/USDT net_unsold=3 max=3 (mem_levels=3 hist_buys=5 hist_sells=3)
+22:01:04 - [INFO] - 🧾 ROUND#196 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:01:04 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=21.670133829758907 er=0.12752696043327658 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:01:04 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.515289503474634 er=0.08388117847577212 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_buy_blocked_inventory_limit(3>=3)
+22:01:25 - [INFO] - watchdog_tick open_positions=4
+22:01:25 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:02:05 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:02:17 - [INFO] - 🧾 ROUND#197 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:02:17 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=21.670133829758907 er=0.13145693615672963 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:02:17 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.515289503474634 er=0.09468238691049019 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:02:42 - [INFO] - watchdog_tick open_positions=4
+22:02:42 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:03:17 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:03:28 - [INFO] - 🧾 ROUND#198 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:03:28 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=21.670133829758907 er=0.12403503305985424 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:03:28 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.515289503474634 er=0.08287629494210842 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:03:55 - [INFO] - watchdog_tick open_positions=4
+22:03:55 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:04:28 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:04:29 - [INFO] - ⏸️ GRID SELL BLOCKED: BTC/USDT grid_pnl=0.058% < min 0.200% (grid_buy=71060.01 current=71101.55 atr_based=0.200%)
+22:04:41 - [INFO] - 🧾 ROUND#199 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:04:41 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=None er=None volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_sell_blocked_unprofitable_0.06%
+22:04:41 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.515289503474634 er=0.07611548556430349 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:05:02 - [INFO] - watchdog_tick open_positions=4
+22:05:02 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:05:41 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:05:52 - [INFO] - 🧾 ROUND#200 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:05:52 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=21.821135843703154 er=0.09291009710765596 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:05:52 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.70815059241676 er=0.04672564270023107 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:06:19 - [INFO] - watchdog_tick open_positions=4
+22:06:19 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']
+22:06:52 - [INFO] - 🎯 Taranan Coinler: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'NEAR/USDT']
+22:06:56 - [INFO] - grid_buy_blocked_inventory_limit sym=ETH/USDT net_unsold=3 max=3 (mem_levels=3 hist_buys=5 hist_sells=3)
+22:07:05 - [INFO] - 🧾 ROUND#201 summary: BUY=0 SELL=0 HOLD=4 | risk_multiplier=1.00 | trade_blocked=False reason=None
+22:07:05 - [INFO] - 🔎 candidate: BTC/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=21.86003578303221 er=0.1019627144786079 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=no_grid_crossing
+22:07:05 - [INFO] - 🔎 candidate: ETH/USDT decision=HOLD score=0.00 buy_th=None gap=None corr=1.0 regime=UNKNOWN adx=26.950289638066756 er=0.0939738727349334 volx=None strategy=grid_v1 trade_blocked=False scanner_reason=None exec_blocked=False exec_reason=None gate_status={} hold_fails=[] reason=grid_buy_blocked_inventory_limit(3>=3)
+22:07:31 - [INFO] - watchdog_tick open_positions=4
+22:07:31 - [INFO] - exit_engine_run positions=4 cache_symbols=['BTC/USDT', 'ETH/USDT', 'NEAR/USDT', 'SOL/USDT']

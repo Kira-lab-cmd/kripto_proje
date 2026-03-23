@@ -1,0 +1,1111 @@
+{
+  "config": {
+    "symbols": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "start_ms": 1764547200000,
+    "end_ms": 1767139200000,
+    "train_days": 7,
+    "test_days": 7,
+    "step_days": 14,
+    "objective_lambda": 100.0,
+    "execution_model": "none",
+    "seed": 7,
+    "overlay_enabled": false,
+    "overlay_mode": "none",
+    "overlay_recipe": null,
+    "overlay_config": null,
+    "overlay_policy_path": null,
+    "portfolio_risk_enabled": false,
+    "max_gross_exposure_pct": 1.5,
+    "max_net_exposure_pct": 1.0,
+    "max_per_symbol_exposure_pct": 0.6,
+    "max_concurrent_positions": 2,
+    "generate_policy": false,
+    "fail_on_leak": false
+  },
+  "leak_stats": {
+    "leak_count": 0,
+    "examples": []
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train_start_ms": 1764547200000,
+      "train_end_ms": 1765152000000,
+      "test_start_ms": 1765152000000,
+      "test_end_ms": 1765756800000,
+      "best_params": {
+        "buy_th": 2.0,
+        "sell_th": -2.0,
+        "atr_sl_mult": 1.5,
+        "atr_tp_mult": 2.5
+      },
+      "train_objective": 332.733772173432,
+      "train_max_dd_pct": 0.00033806675587752045,
+      "train_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 532.7675788490197,
+        "net_pnl": 332.76757884901974,
+        "trade_count": 224,
+        "win_rate": 0.9955357142857143,
+        "avg_r_multiple": 0.9359876998503437,
+        "avg_win_usdt": 1.578401135530198,
+        "avg_loss_usdt": -0.18660725532929784,
+        "profit_factor": 1886.2259808821686,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "price_in_range": 403,
+          "atr_ok": 403,
+          "volume_ok": 403
+        },
+        "total_hold_opportunities": 403,
+        "missed_tp_count": 0,
+        "would_stop_out_count": 0,
+        "unresolved_count": 403,
+        "missed_tp_rate": 0.0,
+        "missed_tp_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "stopout_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765144800000,
+            "ref_price": 89374.19,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89374.19,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765144800000,
+            "ref_price": 3043.62,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3043.62,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765145700000,
+            "ref_price": 89694.6,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89694.6,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765145700000,
+            "ref_price": 3045.77,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3045.77,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765147500000,
+            "ref_price": 89597.03,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89597.03,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765147500000,
+            "ref_price": 3033.59,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3033.59,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765148400000,
+            "ref_price": 89730.42,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89730.42,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765148400000,
+            "ref_price": 3033.37,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3033.37,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765150200000,
+            "ref_price": 89927.65,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89927.65,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765150200000,
+            "ref_price": 3040.85,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3040.85,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      },
+      "test_objective": 366.76030492374076,
+      "test_max_dd_pct": 0.017282697662224695,
+      "test_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 568.4885746899632,
+        "net_pnl": 368.48857468996323,
+        "trade_count": 249,
+        "win_rate": 0.9799196787148594,
+        "avg_r_multiple": 0.9002067330668823,
+        "avg_win_usdt": 1.6203260357137417,
+        "avg_loss_usdt": -1.0787359742262363,
+        "profit_factor": 73.30052249304829,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "price_in_range": 306,
+          "atr_ok": 306,
+          "volume_ok": 306
+        },
+        "total_hold_opportunities": 306,
+        "missed_tp_count": 0,
+        "would_stop_out_count": 0,
+        "unresolved_count": 306,
+        "missed_tp_rate": 0.0,
+        "missed_tp_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "stopout_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765753200000,
+            "ref_price": 88059.15,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88059.15,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765753200000,
+            "ref_price": 3067.25,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3067.25,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765754100000,
+            "ref_price": 88026.44,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88026.44,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765754100000,
+            "ref_price": 3062.64,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3062.64,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765755000000,
+            "ref_price": 88038.44,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88038.44,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765755000000,
+            "ref_price": 3057.5,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3057.5,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765755900000,
+            "ref_price": 88172.17,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88172.17,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765755900000,
+            "ref_price": 3063.5,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3063.5,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1765756800000,
+            "ref_price": 88163.92,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88163.92,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1765756800000,
+            "ref_price": 3060.3,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3060.3,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "train_start_ms": 1765756800000,
+      "train_end_ms": 1766361600000,
+      "test_start_ms": 1766361600000,
+      "test_end_ms": 1766966400000,
+      "best_params": {
+        "buy_th": 2.0,
+        "sell_th": -2.0,
+        "atr_sl_mult": 1.5,
+        "atr_tp_mult": 2.5
+      },
+      "train_objective": -1.6531952999999788,
+      "train_max_dd_pct": 0.005343950999999975,
+      "train_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 198.88119980000002,
+        "net_pnl": -1.1188001999999813,
+        "trade_count": 1,
+        "win_rate": 0.0,
+        "avg_r_multiple": -1.0582081188118784,
+        "avg_win_usdt": 0.0,
+        "avg_loss_usdt": -1.0687901999999943,
+        "profit_factor": 0.0,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "price_in_range": 846,
+          "atr_ok": 846,
+          "volume_ok": 846
+        },
+        "total_hold_opportunities": 846,
+        "missed_tp_count": 0,
+        "would_stop_out_count": 0,
+        "unresolved_count": 846,
+        "missed_tp_rate": 0.0,
+        "missed_tp_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "stopout_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766358000000,
+            "ref_price": 88521.7,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88521.7,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766358000000,
+            "ref_price": 2999.0,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2999.0,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766358900000,
+            "ref_price": 88450.0,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88450.0,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766358900000,
+            "ref_price": 2997.8,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2997.8,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766359800000,
+            "ref_price": 88483.85,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88483.85,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766359800000,
+            "ref_price": 2999.91,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2999.91,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766360700000,
+            "ref_price": 88658.86,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 88658.86,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766360700000,
+            "ref_price": 3002.02,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3002.02,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766361600000,
+            "ref_price": 89480.0,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 89480.0,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766361600000,
+            "ref_price": 3045.6,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 3045.6,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      },
+      "test_objective": 0.0,
+      "test_max_dd_pct": 0.0,
+      "test_metrics": {
+        "initial_equity": 568.4885746899632,
+        "final_equity": 568.4885746899632,
+        "net_pnl": 0.0,
+        "trade_count": 0,
+        "win_rate": 0.0,
+        "avg_r_multiple": 0.0,
+        "avg_win_usdt": 0.0,
+        "avg_loss_usdt": 0.0,
+        "profit_factor": 0.0,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "price_in_range": 848,
+          "atr_ok": 848,
+          "volume_ok": 848
+        },
+        "total_hold_opportunities": 848,
+        "missed_tp_count": 0,
+        "would_stop_out_count": 0,
+        "unresolved_count": 848,
+        "missed_tp_rate": 0.0,
+        "missed_tp_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "stopout_by_fail_gate": {
+          "price_in_range": 0,
+          "atr_ok": 0,
+          "volume_ok": 0
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766962800000,
+            "ref_price": 87695.48,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 87695.48,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766962800000,
+            "ref_price": 2941.84,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2941.84,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766963700000,
+            "ref_price": 87711.33,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 87711.33,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766963700000,
+            "ref_price": 2943.73,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2943.73,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766964600000,
+            "ref_price": 87821.23,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 87821.23,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766964600000,
+            "ref_price": 2949.31,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2949.31,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766965500000,
+            "ref_price": 87952.71,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 87952.71,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766965500000,
+            "ref_price": 2950.91,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2950.91,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1766966400000,
+            "ref_price": 87888.59,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 87888.59,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1766966400000,
+            "ref_price": 2948.49,
+            "atr": null,
+            "hold_fail_reasons": [
+              "price_in_range",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "price_in_range": false,
+              "atr_ok": false,
+              "volume_ok": false
+            },
+            "reason": "no_grid_crossing",
+            "hypothetical_entry": 2948.49,
+            "hypothetical_sl": null,
+            "hypothetical_tp": null,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      }
+    }
+  ],
+  "aggregated": {
+    "fold_count": 2,
+    "total_test_net_pnl": 368.48857468996323,
+    "avg_test_win_rate": 0.4899598393574297,
+    "avg_test_trade_count": 124.5,
+    "avg_test_max_dd_pct": 0.008641348831112347
+  },
+  "equity_curve_summary": {
+    "initial_equity": 200.0,
+    "final_equity": 568.4885746899632,
+    "points": [
+      {
+        "ts_ms": 1764547200000,
+        "equity": 200.0
+      },
+      {
+        "fold": 0,
+        "ts_ms": 1765756800000,
+        "equity": 568.4885746899632
+      },
+      {
+        "fold": 1,
+        "ts_ms": 1766966400000,
+        "equity": 568.4885746899632
+      }
+    ]
+  }
+}

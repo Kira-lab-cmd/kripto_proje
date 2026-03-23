@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-03-14T18:23:08.793040+00:00",
+  "best_per_symbol": [
+    {
+      "symbol": "ETH/USDT",
+      "score": 45.395,
+      "net_pnl_pct": 19.586,
+      "win_rate": 0.9223,
+      "max_drawdown_pct": 6.24,
+      "params": {
+        "symbol": "ETH/USDT",
+        "grid_width_pct": 0.1,
+        "grid_count": 60,
+        "capital_per_grid": 20.0,
+        "sell_only_profitable": true,
+        "min_profit_pct": 0.001,
+        "emergency_stop_pct": 0.05,
+        "block_buy_in_trend": false,
+        "trend_adx_min": 22.0,
+        "trend_er_min": 0.4
+      },
+      "env_snippet": "# ETH/USDT — backtest sonucu (score=45.4, pnl=+19.59%)\nETH_GRID_WIDTH_PCT=0.1\nGRID_COUNT=60\nGRID_CAPITAL_PER_LEVEL=20.0\nGRID_BLOCK_BUY_IN_TREND=false\nGRID_SELL_ONLY_PROFITABLE=true"
+    }
+  ]
+}

@@ -1,0 +1,1276 @@
+{
+  "config": {
+    "symbols": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "start_ms": 1764547200000,
+    "end_ms": 1772841600000,
+    "train_days": 60,
+    "test_days": 14,
+    "step_days": 14,
+    "objective_lambda": 100.0,
+    "execution_model": "none",
+    "seed": 7,
+    "overlay_enabled": false,
+    "overlay_mode": "none",
+    "overlay_recipe": null,
+    "overlay_config": null,
+    "overlay_policy_path": null,
+    "portfolio_risk_enabled": false,
+    "max_gross_exposure_pct": 1.5,
+    "max_net_exposure_pct": 1.0,
+    "max_per_symbol_exposure_pct": 0.6,
+    "max_concurrent_positions": 2,
+    "generate_policy": false,
+    "fail_on_leak": false
+  },
+  "leak_stats": {
+    "leak_count": 0,
+    "examples": []
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "train_start_ms": 1764547200000,
+      "train_end_ms": 1769731200000,
+      "test_start_ms": 1769731200000,
+      "test_end_ms": 1770940800000,
+      "best_params": {
+        "buy_th": 2.0,
+        "sell_th": -2.0,
+        "atr_sl_mult": 2.5,
+        "atr_tp_mult": 3.0
+      },
+      "train_objective": -34.03035702668645,
+      "train_max_dd_pct": 0.10451326420992098,
+      "train_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 176.42096939430564,
+        "net_pnl": -23.579030605694356,
+        "trade_count": 67,
+        "win_rate": 0.3582089552238806,
+        "avg_r_multiple": -0.5267849531882329,
+        "avg_win_usdt": 0.4129281375892133,
+        "avg_loss_usdt": -0.7052030156208668,
+        "profit_factor": 0.32681584387658286,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "ema_uptrend": 5640,
+          "bias_not_down": 4767,
+          "atr_ok": 5461,
+          "squeeze_ok": 94,
+          "volume_ok": 4435,
+          "breakout_ok": 8360
+        },
+        "total_hold_opportunities": 9131,
+        "missed_tp_count": 1625,
+        "would_stop_out_count": 2462,
+        "unresolved_count": 5044,
+        "missed_tp_rate": 0.178,
+        "missed_tp_by_fail_gate": {
+          "ema_uptrend": 842,
+          "bias_not_down": 715,
+          "atr_ok": 1174,
+          "squeeze_ok": 6,
+          "volume_ok": 634,
+          "breakout_ok": 1441
+        },
+        "stopout_by_fail_gate": {
+          "ema_uptrend": 1574,
+          "bias_not_down": 1361,
+          "atr_ok": 1729,
+          "squeeze_ok": 12,
+          "volume_ok": 1038,
+          "breakout_ok": 2226
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1769727600000,
+            "ref_price": 84487.38,
+            "atr": 228.24785714285932,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR gate fail, squeeze ok (1.04), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 84487.38,
+            "hypothetical_sl": 83916.76035714286,
+            "hypothetical_tp": 85172.12357142859,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1769727600000,
+            "ref_price": 2814.84,
+            "atr": 10.243571428571354,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.36), squeeze ok (1.27), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 2814.84,
+            "hypothetical_sl": 2789.231071428572,
+            "hypothetical_tp": 2845.570714285714,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1769728500000,
+            "ref_price": 84576.0,
+            "atr": 225.6364285714309,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "atr_ok",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR gate fail, squeeze ok (1.04), volume confirm yok, close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 84576.0,
+            "hypothetical_sl": 84011.90892857143,
+            "hypothetical_tp": 85252.9092857143,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1769728500000,
+            "ref_price": 2819.95,
+            "atr": 10.22999999999992,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.36), squeeze ok (1.27), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 2819.95,
+            "hypothetical_sl": 2794.375,
+            "hypothetical_tp": 2850.6399999999994,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1769729400000,
+            "ref_price": 84687.4,
+            "atr": 222.49714285714435,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "atr_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR gate fail, squeeze ok (1.04), VOLx ok (1.16), close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 84687.4,
+            "hypothetical_sl": 84131.15714285713,
+            "hypothetical_tp": 85354.89142857143,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1769729400000,
+            "ref_price": 2824.93,
+            "atr": 10.091428571428521,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.36), squeeze ok (1.27), volume confirm yok, close breakout, SYM=ETH/USDT",
+            "hypothetical_entry": 2824.93,
+            "hypothetical_sl": 2799.7014285714286,
+            "hypothetical_tp": 2855.2042857142856,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1769730300000,
+            "ref_price": 84650.16,
+            "atr": 207.90500000000196,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR gate fail, squeeze ok (0.84), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 84650.16,
+            "hypothetical_sl": 84130.39749999999,
+            "hypothetical_tp": 85273.87500000001,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1769730300000,
+            "ref_price": 2822.59,
+            "atr": 9.437142857142817,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.33), squeeze ok (1.12), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 2822.59,
+            "hypothetical_sl": 2798.997142857143,
+            "hypothetical_tp": 2850.9014285714284,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1769731200000,
+            "ref_price": 84542.28,
+            "atr": 198.90571428571587,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR gate fail, squeeze ok (0.64), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 84542.28,
+            "hypothetical_sl": 84045.0157142857,
+            "hypothetical_tp": 85138.99714285714,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1769731200000,
+            "ref_price": 2820.43,
+            "atr": 9.196428571428507,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.33), squeeze ok (0.79), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 2820.43,
+            "hypothetical_sl": 2797.4389285714287,
+            "hypothetical_tp": 2848.019285714285,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      },
+      "test_objective": 2.3294104445444077,
+      "test_max_dd_pct": 0.0,
+      "test_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 202.3294104445444,
+        "net_pnl": 2.3294104445444077,
+        "trade_count": 4,
+        "win_rate": 1.0,
+        "avg_r_multiple": 0.7982672105155425,
+        "avg_win_usdt": 0.6325299148400526,
+        "avg_loss_usdt": 0.0,
+        "profit_factor": "inf",
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "ema_uptrend": 1545,
+          "bias_not_down": 1860,
+          "atr_ok": 23,
+          "squeeze_ok": 226,
+          "volume_ok": 960,
+          "breakout_ok": 1928
+        },
+        "total_hold_opportunities": 2098,
+        "missed_tp_count": 249,
+        "would_stop_out_count": 613,
+        "unresolved_count": 1236,
+        "missed_tp_rate": 0.1187,
+        "missed_tp_by_fail_gate": {
+          "ema_uptrend": 187,
+          "bias_not_down": 225,
+          "atr_ok": 9,
+          "squeeze_ok": 17,
+          "volume_ok": 100,
+          "breakout_ok": 210
+        },
+        "stopout_by_fail_gate": {
+          "ema_uptrend": 478,
+          "bias_not_down": 530,
+          "atr_ok": 13,
+          "squeeze_ok": 45,
+          "volume_ok": 220,
+          "breakout_ok": 576
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770937200000,
+            "ref_price": 66313.25,
+            "atr": 286.75285714285826,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (1.79), VOLx ok (1.07), close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 66313.25,
+            "hypothetical_sl": 65596.36785714286,
+            "hypothetical_tp": 67173.50857142858,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770937200000,
+            "ref_price": 1943.09,
+            "atr": 9.099285714285738,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.47), squeeze ok (1.86), VOLx ok (1.49), close breakout, SYM=ETH/USDT",
+            "hypothetical_entry": 1943.09,
+            "hypothetical_sl": 1920.3417857142856,
+            "hypothetical_tp": 1970.3878571428572,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770938100000,
+            "ref_price": 66404.21,
+            "atr": 278.8385714285723,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.42), squeeze ok (1.90), volume confirm yok, close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 66404.21,
+            "hypothetical_sl": 65707.11357142858,
+            "hypothetical_tp": 67240.72571428573,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770938100000,
+            "ref_price": 1948.6,
+            "atr": 8.895000000000014,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.46), squeeze ok (2.07), volume confirm yok, close breakout, SYM=ETH/USDT",
+            "hypothetical_entry": 1948.6,
+            "hypothetical_sl": 1926.3625,
+            "hypothetical_tp": 1975.2849999999999,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770939000000,
+            "ref_price": 66247.44,
+            "atr": 267.69714285714406,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.40), squeeze ok (1.92), VOLx ok (0.76), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66247.44,
+            "hypothetical_sl": 65578.19714285714,
+            "hypothetical_tp": 67050.53142857144,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770939000000,
+            "ref_price": 1946.09,
+            "atr": 8.40714285714286,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (2.21), VOLx ok (0.85), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1946.09,
+            "hypothetical_sl": 1925.0721428571428,
+            "hypothetical_tp": 1971.3114285714285,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770939900000,
+            "ref_price": 66272.17,
+            "atr": 255.8628571428578,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.39), squeeze ok (1.92), VOLx ok (1.73), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66272.17,
+            "hypothetical_sl": 65632.51285714285,
+            "hypothetical_tp": 67039.75857142857,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770939900000,
+            "ref_price": 1947.85,
+            "atr": 8.336428571428574,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (2.20), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1947.85,
+            "hypothetical_sl": 1927.0089285714284,
+            "hypothetical_tp": 1972.8592857142855,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770940800000,
+            "ref_price": 66374.88,
+            "atr": 261.1621428571431,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.39), squeeze ok (1.60), VOLx ok (1.14), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66374.88,
+            "hypothetical_sl": 65721.97464285715,
+            "hypothetical_tp": 67158.36642857143,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770940800000,
+            "ref_price": 1947.05,
+            "atr": 8.572857142857126,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.44), squeeze ok (1.96), VOLx ok (0.94), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1947.05,
+            "hypothetical_sl": 1925.6178571428572,
+            "hypothetical_tp": 1972.7685714285712,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      }
+    },
+    {
+      "fold": 1,
+      "train_start_ms": 1765756800000,
+      "train_end_ms": 1770940800000,
+      "test_start_ms": 1770940800000,
+      "test_end_ms": 1772150400000,
+      "best_params": {
+        "buy_th": 2.0,
+        "sell_th": -2.0,
+        "atr_sl_mult": 2.5,
+        "atr_tp_mult": 3.5
+      },
+      "train_objective": -27.304837178965066,
+      "train_max_dd_pct": 0.08763444820607327,
+      "train_metrics": {
+        "initial_equity": 200.0,
+        "final_equity": 181.45860764164226,
+        "net_pnl": -18.54139235835774,
+        "trade_count": 55,
+        "win_rate": 0.34545454545454546,
+        "avg_r_multiple": -0.4765226087130745,
+        "avg_win_usdt": 0.5884536586950504,
+        "avg_loss_usdt": -0.7524500771877203,
+        "profit_factor": 0.4127486642994859,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "ema_uptrend": 6032,
+          "bias_not_down": 5354,
+          "atr_ok": 4494,
+          "squeeze_ok": 311,
+          "volume_ok": 4368,
+          "breakout_ok": 8286
+        },
+        "total_hold_opportunities": 9043,
+        "missed_tp_count": 1155,
+        "would_stop_out_count": 2601,
+        "unresolved_count": 5287,
+        "missed_tp_rate": 0.1277,
+        "missed_tp_by_fail_gate": {
+          "ema_uptrend": 607,
+          "bias_not_down": 521,
+          "atr_ok": 776,
+          "squeeze_ok": 19,
+          "volume_ok": 460,
+          "breakout_ok": 999
+        },
+        "stopout_by_fail_gate": {
+          "ema_uptrend": 1812,
+          "bias_not_down": 1631,
+          "atr_ok": 1455,
+          "squeeze_ok": 69,
+          "volume_ok": 1054,
+          "breakout_ok": 2364
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770937200000,
+            "ref_price": 66313.25,
+            "atr": 286.75285714285826,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (1.79), VOLx ok (1.07), close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 66313.25,
+            "hypothetical_sl": 65596.36785714286,
+            "hypothetical_tp": 67316.88500000001,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770937200000,
+            "ref_price": 1943.09,
+            "atr": 9.099285714285738,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.47), squeeze ok (1.86), VOLx ok (1.49), close breakout, SYM=ETH/USDT",
+            "hypothetical_entry": 1943.09,
+            "hypothetical_sl": 1920.3417857142856,
+            "hypothetical_tp": 1974.9375,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770938100000,
+            "ref_price": 66404.21,
+            "atr": 278.8385714285723,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.42), squeeze ok (1.90), volume confirm yok, close breakout, SYM=BTC/USDT",
+            "hypothetical_entry": 66404.21,
+            "hypothetical_sl": 65707.11357142858,
+            "hypothetical_tp": 67380.145,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770938100000,
+            "ref_price": 1948.6,
+            "atr": 8.895000000000014,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": true
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.46), squeeze ok (2.07), volume confirm yok, close breakout, SYM=ETH/USDT",
+            "hypothetical_entry": 1948.6,
+            "hypothetical_sl": 1926.3625,
+            "hypothetical_tp": 1979.7325,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770939000000,
+            "ref_price": 66247.44,
+            "atr": 267.69714285714406,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.40), squeeze ok (1.92), VOLx ok (0.76), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66247.44,
+            "hypothetical_sl": 65578.19714285714,
+            "hypothetical_tp": 67184.38,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770939000000,
+            "ref_price": 1946.09,
+            "atr": 8.40714285714286,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (2.21), VOLx ok (0.85), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1946.09,
+            "hypothetical_sl": 1925.0721428571428,
+            "hypothetical_tp": 1975.5149999999999,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770939900000,
+            "ref_price": 66272.17,
+            "atr": 255.8628571428578,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.39), squeeze ok (1.92), VOLx ok (1.73), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66272.17,
+            "hypothetical_sl": 65632.51285714285,
+            "hypothetical_tp": 67167.69,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770939900000,
+            "ref_price": 1947.85,
+            "atr": 8.336428571428574,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.43), squeeze ok (2.20), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1947.85,
+            "hypothetical_sl": 1927.0089285714284,
+            "hypothetical_tp": 1977.0275,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1770940800000,
+            "ref_price": 66374.88,
+            "atr": 261.1621428571431,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.39), squeeze ok (1.60), VOLx ok (1.14), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 66374.88,
+            "hypothetical_sl": 65721.97464285715,
+            "hypothetical_tp": 67288.94750000001,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1770940800000,
+            "ref_price": 1947.05,
+            "atr": 8.572857142857126,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "bias_not_down",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": false,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=DOWN, ATR% ok (0.44), squeeze ok (1.96), VOLx ok (0.94), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1947.05,
+            "hypothetical_sl": 1925.6178571428572,
+            "hypothetical_tp": 1977.0549999999998,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      },
+      "test_objective": 0.0,
+      "test_max_dd_pct": 0.0,
+      "test_metrics": {
+        "initial_equity": 202.3294104445444,
+        "final_equity": 202.3294104445444,
+        "net_pnl": 0.0,
+        "trade_count": 0,
+        "win_rate": 0.0,
+        "avg_r_multiple": 0.0,
+        "avg_win_usdt": 0.0,
+        "avg_loss_usdt": 0.0,
+        "profit_factor": 0.0,
+        "rejected_orders": 0,
+        "gate_fail_stats": {
+          "ema_uptrend": 836,
+          "bias_not_down": 1294,
+          "atr_ok": 548,
+          "squeeze_ok": 0,
+          "volume_ok": 624,
+          "breakout_ok": 1221
+        },
+        "total_hold_opportunities": 1362,
+        "missed_tp_count": 171,
+        "would_stop_out_count": 416,
+        "unresolved_count": 775,
+        "missed_tp_rate": 0.1256,
+        "missed_tp_by_fail_gate": {
+          "ema_uptrend": 91,
+          "bias_not_down": 165,
+          "atr_ok": 100,
+          "squeeze_ok": 0,
+          "volume_ok": 63,
+          "breakout_ok": 158
+        },
+        "stopout_by_fail_gate": {
+          "ema_uptrend": 251,
+          "bias_not_down": 382,
+          "atr_ok": 178,
+          "squeeze_ok": 0,
+          "volume_ok": 161,
+          "breakout_ok": 361
+        },
+        "hold_opportunities_sample": [
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1771773300000,
+            "ref_price": 67599.03,
+            "atr": 188.50785714285718,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "atr_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR gate fail, squeeze ok (1.16), VOLx ok (1.14), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 67599.03,
+            "hypothetical_sl": 67127.76035714286,
+            "hypothetical_tp": 68258.8075,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1771773300000,
+            "ref_price": 1954.02,
+            "atr": 7.6314285714285655,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR% ok (0.39), squeeze ok (1.65), VOLx ok (1.02), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1954.02,
+            "hypothetical_sl": 1934.9414285714286,
+            "hypothetical_tp": 1980.73,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1771774200000,
+            "ref_price": 67777.51,
+            "atr": 189.8235714285724,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "atr_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR gate fail, squeeze ok (1.14), VOLx ok (2.08), breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 67777.51,
+            "hypothetical_sl": 67302.95107142856,
+            "hypothetical_tp": 68441.8925,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1771774200000,
+            "ref_price": 1956.8,
+            "atr": 7.40571428571429,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR% ok (0.38), squeeze ok (1.60), VOLx ok (1.03), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1956.8,
+            "hypothetical_sl": 1938.2857142857142,
+            "hypothetical_tp": 1982.72,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1771775100000,
+            "ref_price": 67684.14,
+            "atr": 192.3485714285728,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR gate fail, squeeze ok (1.09), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 67684.14,
+            "hypothetical_sl": 67203.26857142856,
+            "hypothetical_tp": 68357.36,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1771775100000,
+            "ref_price": 1953.98,
+            "atr": 7.4150000000000125,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR% ok (0.38), squeeze ok (1.29), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1953.98,
+            "hypothetical_sl": 1935.4424999999999,
+            "hypothetical_tp": 1979.9325000000001,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1771776000000,
+            "ref_price": 67581.6,
+            "atr": 189.56142857142964,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR gate fail, squeeze ok (1.09), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 67581.6,
+            "hypothetical_sl": 67107.69642857143,
+            "hypothetical_tp": 68245.065,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1771776000000,
+            "ref_price": 1950.79,
+            "atr": 6.947142857142873,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": true,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR% ok (0.36), squeeze ok (1.29), VOLx ok (1.80), breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1950.79,
+            "hypothetical_sl": 1933.4221428571427,
+            "hypothetical_tp": 1975.105,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "BTC/USDT",
+            "timestamp": 1771776900000,
+            "ref_price": 67568.14,
+            "atr": 188.74428571428663,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "atr_ok",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": false,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR gate fail, squeeze ok (1.09), volume confirm yok, breakout yok, SYM=BTC/USDT",
+            "hypothetical_entry": 67568.14,
+            "hypothetical_sl": 67096.27928571428,
+            "hypothetical_tp": 68228.745,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          },
+          {
+            "symbol": "ETH/USDT",
+            "timestamp": 1771776900000,
+            "ref_price": 1949.59,
+            "atr": 6.702142857142868,
+            "hold_fail_reasons": [
+              "ema_uptrend",
+              "volume_ok",
+              "breakout_ok"
+            ],
+            "gate_status": {
+              "ema_uptrend": false,
+              "bias_not_down": true,
+              "atr_ok": true,
+              "squeeze_ok": true,
+              "volume_ok": false,
+              "breakout_ok": false
+            },
+            "reason": "EMA200 trend!=UP, 1H bias=NEUTRAL (allowed), ATR% ok (0.34), squeeze ok (1.29), volume confirm yok, breakout yok, SYM=ETH/USDT",
+            "hypothetical_entry": 1949.59,
+            "hypothetical_sl": 1932.8346428571429,
+            "hypothetical_tp": 1973.0475,
+            "horizon_bars": 12,
+            "outcome": "unresolved"
+          }
+        ]
+      }
+    }
+  ],
+  "aggregated": {
+    "fold_count": 2,
+    "total_test_net_pnl": 2.3294104445444077,
+    "avg_test_win_rate": 0.5,
+    "avg_test_trade_count": 2.0,
+    "avg_test_max_dd_pct": 0.0
+  },
+  "equity_curve_summary": {
+    "initial_equity": 200.0,
+    "final_equity": 202.3294104445444,
+    "points": [
+      {
+        "ts_ms": 1764547200000,
+        "equity": 200.0
+      },
+      {
+        "fold": 0,
+        "ts_ms": 1770940800000,
+        "equity": 202.3294104445444
+      },
+      {
+        "fold": 1,
+        "ts_ms": 1772150400000,
+        "equity": 202.3294104445444
+      }
+    ]
+  }
+}
