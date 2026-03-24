@@ -441,8 +441,19 @@ class Trader:
                 strategy_name = signal_details.get("strategy_name")
 
             if strategy_name == "grid_v1":
-                # GRID STRATEGY: Fixed capital per level
-                grid_capital_per_level = float(os.getenv("GRID_CAPITAL_PER_LEVEL", "20.0"))
+                # GRID STRATEGY: Coin bazlı sermaye
+                # Her coin için ayrı env var, yoksa genel default
+                _coin_capital_map = {
+                    "BTC": float(os.getenv("GRID_CAPITAL_BTC", "0")),
+                    "ETH": float(os.getenv("GRID_CAPITAL_ETH", "0")),
+                    "SOL": float(os.getenv("GRID_CAPITAL_SOL", "0")),
+                    "NEAR": float(os.getenv("GRID_CAPITAL_NEAR", "0")),
+                    "BNB": float(os.getenv("GRID_CAPITAL_BNB", "0")),
+                    "XRP": float(os.getenv("GRID_CAPITAL_XRP", "0")),
+                }
+                _default_capital = float(os.getenv("GRID_CAPITAL_PER_LEVEL", "20.0"))
+                _coin_specific = _coin_capital_map.get(base_currency, 0.0)
+                grid_capital_per_level = _coin_specific if _coin_specific > 0 else _default_capital
                 amount_to_trade = grid_capital_per_level / float(current_price)
 
                 logger.info(
